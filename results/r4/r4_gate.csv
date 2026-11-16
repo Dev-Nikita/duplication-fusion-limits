@@ -1,0 +1,16 @@
+task,seed,auc_cal,passed
+amf_stall,0,0.9166666666666667,True
+amf_stall,1,0.8888888888888888,True
+amf_stall,2,0.7083333333333334,True
+amf_stall,3,0.7222222222222222,True
+amf_stall,4,0.8472222222222223,True
+ausf_stall,0,0.7361111111111112,True
+ausf_stall,1,0.6388888888888888,False
+ausf_stall,2,0.8333333333333335,True
+ausf_stall,3,0.5972222222222222,False
+ausf_stall,4,0.5277777777777779,False
+reg_reject,0,1.0,True
+reg_reject,1,1.0,True
+reg_reject,2,1.0,True
+reg_reject,3,1.0,True
+reg_reject,4,1.0,True

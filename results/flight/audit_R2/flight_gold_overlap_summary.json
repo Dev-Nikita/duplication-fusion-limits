@@ -1,0 +1,24 @@
+{
+ "n_items": 2709,
+ "own_site_reports": 2709,
+ "own_site_share": 1.0,
+ "own_site_equals_gold_share": 1.0,
+ "by_airline": {
+  "AA": {
+   "n": 1296,
+   "own": 1.0,
+   "eq": 1.0
+  },
+  "CO": {
+   "n": 527,
+   "own": 1.0,
+   "eq": 1.0
+  },
+  "UA": {
+   "n": 886,
+   "own": 1.0,
+   "eq": 1.0
+  }
+ },
+ "sources_sched_equals_gold_sched": 0.9789776121525902
+}

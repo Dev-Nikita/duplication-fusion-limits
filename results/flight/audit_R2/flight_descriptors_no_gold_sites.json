@@ -1,0 +1,27 @@
+{
+ "n_items": 2709,
+ "n_sources": 29,
+ "coverage_min": 3,
+ "coverage_max": 27,
+ "n_clusters": 10,
+ "cluster_sizes": [
+  10,
+  7,
+  4,
+  2,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "D_hat": 9,
+ "RB_U": 0.07989424501575135,
+ "RB_P": 0.14152838639308693,
+ "RB_A_natural": 0.06188061450256054,
+ "R_star_Dhat": 0.14152838649363733,
+ "D_sat": 3,
+ "copies_per_firing_cluster_y0": 4.037994241017707,
+ "copies_per_firing_cluster_y1": 3.680109212951501
+}

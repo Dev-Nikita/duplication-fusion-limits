@@ -1,0 +1,80 @@
+# =====================================================================================================
+# WHITELIST .gitignore — everything is ignored unless it is explicitly allowed below.
+# Goal: the private Git repository holds code, frozen protocols and derived results only.
+# NEVER in Git (private or public): the manuscript, reviews/editorial notes, submission strategy,
+# comparisons with other own manuscripts, unpublished theory notes, literature PDFs, raw data.
+# Those stay local (and in an encrypted backup), see PRIVATE_FILES.md.
+# =====================================================================================================
+
+# 1) ignore everything at the top level ...
+/*
+# 2) ... except these
+!/.gitignore
+!/README.md
+!/REPRODUCE_FINITE_CAP.md
+!/PRIVATE_FILES.md
+!/requirements_finite_cap.txt
+!/requirements_lock_2026-11-16.txt
+!/REPRODUCE.md
+!/MANIFEST.csv
+!/Makefile
+!/pyproject.toml
+!/src/
+!/tests/
+!/tools/
+!/experiments/
+!/testbed/
+!/results/
+!/docs/
+
+# 3) excluded inside allowed folders
+/testbed/out/
+/testbed/*.tgz
+/results/r1_audit.log
+/results/**/*.pkl
+/tools/git_*.sh.bak
+
+# docs: unpublished theory, review/editorial/submission material, own-manuscript comparisons, literature
+/docs/audit/
+/docs/lit/
+/docs/theory/
+/docs/pdfs/
+/docs/AI_USE_DISCLOSURE_DRAFT.md
+/docs/CLAIM_TO_EVIDENCE_AUDIT.csv
+/docs/DECISION_*.md
+/docs/EDITORIAL_*.md
+/docs/EXTERNAL_THEOREM_REVIEW_PACKET.md
+/docs/FORMAL_*.md
+/docs/IF_READINESS_GATE*.md
+/docs/MATHEMATICAL_VERIFICATION_REPORT.md
+/docs/NOVELTY_AUDIT*.md
+/docs/novelty-audit.md
+/docs/PRIOR_ART_*.md
+/docs/PRIORITY_AND_STATUS_MATRIX*.md
+/docs/REVIEW_RESPONSE*.md
+/docs/SUBMISSION_GATE*.md
+/docs/THEOREM_VERIFICATION.md
+/docs/THEORY_CHANNEL_REGIMES.md
+/docs/overlap-and-salami-guard.md
+/docs/similarity_*.txt
+/docs/flight-protocol.md.sha256.bak
+/docs/SPRINT_*.md
+/docs/FINAL_ARCHIVE_MANIFEST*.txt
+/docs/FEASIBILITY_EXTERNAL_DATA_*.md
+/docs/RESEARCH_PLAN.md
+/docs/ASSESSMENT_*.md
+
+# 4) never anywhere
+**/__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+.venv/
+*.egg-info/
+*.tex
+*.bib
+*.pdf
+*.docx
+*.zip
+*.tgz
+*.tar.gz

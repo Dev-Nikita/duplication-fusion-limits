@@ -1,0 +1,9 @@
+Cross-platform check of the finite-cap values (tools/cross_platform_check.py), 2026-11-16.
+Reference: results/finite_cap/plugin_cvx_oos.csv (sha256 in MANIFEST.csv). Tolerance fixed in advance: 1e-4 on values.
+Linux x86_64 py3.13.16 numpy2.5.3 scipy1.18.1 cvxpy1.9.3 | folds 0:108 cells 756 | max|dR*| 9.71e-17 | max|dW| 9.71e-17 | outside bracket 0 | 24s
+Linux aarch64 py3.10.12 numpy2.2.6 scipy1.15.3 cvxpy1.7.5 | folds 0:27 cells 189 | max|dR*| 9.71e-17 | max|dW| 9.71e-17 | outside bracket 0 | 7s
+Linux aarch64 py3.10.12 numpy2.2.6 scipy1.15.3 cvxpy1.7.5 | folds 27:54 cells 189 | max|dR*| 1.11e-16 | max|dW| 9.71e-17 | outside bracket 0 | 7s
+Linux aarch64 py3.10.12 numpy2.2.6 scipy1.15.3 cvxpy1.7.5 | folds 54:81 cells 189 | max|dR*| 1.11e-16 | max|dW| 9.71e-17 | outside bracket 0 | 7s
+Linux aarch64 py3.10.12 numpy2.2.6 scipy1.15.3 cvxpy1.7.5 | folds 81:108 cells 189 | max|dR*| 1.39e-16 | max|dW| 9.71e-17 | outside bracket 0 | 7s
+Both runs use Clarabel 0.11.1. The aarch64 run is an Ubuntu 22.04 virtual machine on Apple hardware, not native macOS.
+Not run: native macOS, Windows, other Clarabel versions. No claim of identical output is made for those.

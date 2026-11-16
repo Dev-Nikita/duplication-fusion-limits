@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Calls the frozen rca_features.py once per case (case path as filter), skipping cases already in the output.
+# Stops starting new cases after $3 seconds so it fits a bounded shell call; rerun to continue.
+root=$1; out=$2; budget=${3:-140}; start=$(date +%s)
+for f in $(find "$root" -name logs.csv | sort); do
+  case=$(dirname "${f#$root/}")
+  [ -f "$out" ] && grep -q "^$case," "$out" && continue
+  [ $(( $(date +%s) - start )) -ge "$budget" ] && { echo "PAUSED"; exit 0; }
+  python3 experiments/ext/rca_features.py "$root" "$out" "$case/" >/dev/null 2>>"$out.err" || echo "FAIL $case"
+done
+echo "ALL_CASES_DONE"

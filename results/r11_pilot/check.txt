@@ -1,0 +1,5 @@
+ W  n  cpu  healthy_med  healthy_q90  stall_med  all_alive  max_rej
+ 0 12 0.10        0.161        0.180      0.669       True      0.0
+ 5 12 0.60        0.194        0.352      1.143       True      0.0
+10 12 0.99        1.052        1.427      2.359       True      0.0
+DECISION: GO with W = 10

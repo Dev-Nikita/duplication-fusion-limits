@@ -1,0 +1,22 @@
+{
+ "decision": {
+  "H1": false,
+  "H2": false,
+  "practically_meaningful": false
+ },
+ "gate_auc_mean": {
+  "control": {
+   "amf_stall": 0.999,
+   "ausf_stall": 0.998,
+   "net_delay": 0.976
+  },
+  "loaded": {
+   "amf_stall": 0.972,
+   "ausf_stall": 0.969,
+   "net_delay": 0.74
+  }
+ }
+}
+gbdt_mix_oracle {'H1_I': {'est': np.float64(0.00042), 'one_sided_lb95': np.float64(-0.00075), 'positive': 8, 'n': 12, 'confirmed': False}, 'LI_contrast': {'est': np.float64(-0.00061), 'one_sided_lb95': np.float64(-0.00214), 'positive': 6, 'n': 12, 'confirmed': False}, 'H2_I_minus_ILI': {'est': np.float64(0.00102), 'one_sided_lb95': np.float64(-0.00013), 'positive': 8, 'n': 12, 'confirmed': False}}
+gbdt_aug {'H1_I': {'est': np.float64(0.00084), 'one_sided_lb95': np.float64(-0.00078), 'positive': 8, 'n': 12, 'confirmed': False}, 'LI_contrast': {'est': np.float64(-0.0003), 'one_sided_lb95': np.float64(-0.00195), 'positive': 7, 'n': 12, 'confirmed': False}, 'H2_I_minus_ILI': {'est': np.float64(0.00114), 'one_sided_lb95': np.float64(-0.00024), 'positive': 8, 'n': 12, 'confirmed': False}}
+gbdt_dedup {'H1_I': {'est': np.float64(-0.17274), 'one_sided_lb95': np.float64(-0.19218), 'positive': 0, 'n': 12, 'confirmed': False}, 'LI_contrast': {'est': np.float64(-0.17274), 'one_sided_lb95': np.float64(-0.19218), 'positive': 0, 'n': 12, 'confirmed': False}, 'H2_I_minus_ILI': {'est': np.float64(0.0), 'one_sided_lb95': np.float64(-0.0), 'positive': 3, 'n': 12, 'confirmed': False}}

@@ -1,0 +1,144 @@
+{
+ "tasks_passing_gate": [
+  "amf_stall",
+  "ausf_stall",
+  "net_delay",
+  "reg_reject"
+ ],
+ "gate": [
+  {
+   "task": "amf_stall",
+   "held_block": 1,
+   "passed": 1.0
+  },
+  {
+   "task": "amf_stall",
+   "held_block": 2,
+   "passed": 1.0
+  },
+  {
+   "task": "amf_stall",
+   "held_block": 3,
+   "passed": 1.0
+  },
+  {
+   "task": "ausf_stall",
+   "held_block": 1,
+   "passed": 1.0
+  },
+  {
+   "task": "ausf_stall",
+   "held_block": 2,
+   "passed": 1.0
+  },
+  {
+   "task": "ausf_stall",
+   "held_block": 3,
+   "passed": 1.0
+  },
+  {
+   "task": "net_delay",
+   "held_block": 1,
+   "passed": 1.0
+  },
+  {
+   "task": "net_delay",
+   "held_block": 2,
+   "passed": 1.0
+  },
+  {
+   "task": "net_delay",
+   "held_block": 3,
+   "passed": 1.0
+  },
+  {
+   "task": "reg_reject",
+   "held_block": 1,
+   "passed": 1.0
+  },
+  {
+   "task": "reg_reject",
+   "held_block": 2,
+   "passed": 1.0
+  },
+  {
+   "task": "reg_reject",
+   "held_block": 3,
+   "passed": 1.0
+  }
+ ],
+ "C1": {
+  "est": 0.024838360725085305,
+  "ci95": [
+   0.0119,
+   0.0398
+  ],
+  "per_block": {
+   "1": 0.0257,
+   "2": 0.036,
+   "3": 0.0128
+  },
+  "holds": true
+ },
+ "C2": {
+  "est": 0.00015314234453896422,
+  "ci95": [
+   -0.0055,
+   0.0054
+  ],
+  "one_sided_upper95": 0.0046,
+  "holds": true
+ },
+ "C3": {
+  "max_abs": 0.0,
+  "holds": true
+ },
+ "C4": {
+  "est": -0.03296138096444575,
+  "ci95": [
+   -0.0554,
+   -0.0153
+  ],
+  "holds": true
+ },
+ "C5_vs_pact_declared": {
+  "est": 0.06876864989852653,
+  "ci95": [
+   0.0437,
+   0.0994
+  ],
+  "holds": true
+ },
+ "C5_vs_tb_loglinear": {
+  "est": 0.042499812301341956,
+  "ci95": [
+   0.0291,
+   0.0555
+  ],
+  "holds": true
+ },
+ "C5_vs_geo_pool": {
+  "est": 0.03970502780032809,
+  "ci95": [
+   0.0313,
+   0.0493
+  ],
+  "holds": true
+ },
+ "C5_vs_naive_bayes": {
+  "est": 0.049184177532902225,
+  "ci95": [
+   0.033,
+   0.0658
+  ],
+  "holds": true
+ },
+ "C5_vs_gen_bma": {
+  "est": -0.008452004090975856,
+  "ci95": [
+   -0.0164,
+   -0.0019
+  ],
+  "holds": false
+ }
+}

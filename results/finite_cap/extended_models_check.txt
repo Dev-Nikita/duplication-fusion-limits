@@ -1,0 +1,5 @@
+strict example (M=3, D=1): R_B(U) 0.1194 < count-only 0.1600 < firing-set-aware 0.1845 < label-aware 0.2271 < R_B(P) 0.2475
+two-type example D=0: R*_D 0.0000 (R_B(P) 0.2500); bounds on V_D [0.2500, 0.2500]
+two-type example D=1: R*_D 0.0000 (R_B(P) 0.2500); bounds on V_D [0.2500, 0.2500]
+two-type example D=2: R*_D 0.2500 (R_B(P) 0.2500); bounds on V_D [0.0000, 0.0000]
+579 checks, 0 FAIL

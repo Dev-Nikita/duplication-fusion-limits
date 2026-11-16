@@ -1,0 +1,127 @@
+{
+ "tasks_passing_gate": [
+  "amf_stall",
+  "reg_reject"
+ ],
+ "gate": [
+  {
+   "task": "amf_stall",
+   "held_block": 1,
+   "passed": 1.0
+  },
+  {
+   "task": "amf_stall",
+   "held_block": 2,
+   "passed": 0.8
+  },
+  {
+   "task": "amf_stall",
+   "held_block": 3,
+   "passed": 0.6
+  },
+  {
+   "task": "ausf_stall",
+   "held_block": 1,
+   "passed": 0.4
+  },
+  {
+   "task": "ausf_stall",
+   "held_block": 2,
+   "passed": 0.4
+  },
+  {
+   "task": "ausf_stall",
+   "held_block": 3,
+   "passed": 0.2
+  },
+  {
+   "task": "reg_reject",
+   "held_block": 1,
+   "passed": 1.0
+  },
+  {
+   "task": "reg_reject",
+   "held_block": 2,
+   "passed": 1.0
+  },
+  {
+   "task": "reg_reject",
+   "held_block": 3,
+   "passed": 1.0
+  }
+ ],
+ "C1": {
+  "est": 0.017980841802825262,
+  "ci95": [
+   0.0013,
+   0.0441
+  ],
+  "per_block": {
+   "1": 0.0153,
+   "2": 0.0372,
+   "3": 0.0014
+  },
+  "holds": true
+ },
+ "C2": {
+  "est": 0.0010276120859692135,
+  "ci95": [
+   -0.0062,
+   0.0069
+  ],
+  "one_sided_upper95": 0.0062,
+  "holds": true
+ },
+ "C3": {
+  "max_abs": 0.0,
+  "holds": true
+ },
+ "C4": {
+  "est": -0.010547684742731179,
+  "ci95": [
+   -0.037,
+   0.0086
+  ],
+  "holds": false
+ },
+ "C5_vs_pact_declared": {
+  "est": 0.07425899165269868,
+  "ci95": [
+   0.0278,
+   0.1255
+  ],
+  "holds": true
+ },
+ "C5_vs_tb_loglinear": {
+  "est": 0.050836739057155356,
+  "ci95": [
+   0.0143,
+   0.0837
+  ],
+  "holds": true
+ },
+ "C5_vs_geo_pool": {
+  "est": 0.03216710632086105,
+  "ci95": [
+   0.0028,
+   0.0575
+  ],
+  "holds": true
+ },
+ "C5_vs_naive_bayes": {
+  "est": 0.08694399690977424,
+  "ci95": [
+   0.0352,
+   0.1387
+  ],
+  "holds": true
+ },
+ "C5_vs_gen_bma": {
+  "est": 0.028872881940379434,
+  "ci95": [
+   -0.0012,
+   0.0678
+  ],
+  "holds": false
+ }
+}

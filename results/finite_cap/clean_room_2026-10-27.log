@@ -1,0 +1,49 @@
+=== 08:23:35 1
+94 checks, 0 FAIL
+=== 08:24:10 2
+4302 checks, 0 FAIL
+=== 08:24:26 2b
+2993 checks, 0 FAIL; tightness: V/(h*delta) max 1.0000, median 0.589; V/(h*kappa*delta^2) min 1.0000
+=== 08:25:54 3
+=== 08:34:22 4
+=== 08:34:23 5
+108 folds
+=== 08:34:39 5b
+108 folds -> results/finite_cap/saturation_closed_form.csv
+=== 08:34:40 6
+756
+=== 08:35:27 7
+=== 08:39:44 7b
+=== 09:17:38 9
+=== 09:24:30 10
+=== 09:28:08 11a
+=== 09:28:08 wait-laneB
+=== 08:25:54 3b
+=== 08:46:51 12
+=== 09:00:04 laneB-done
+=== 09:28:09 8
+=== 09:28:10 8b
+=== 09:28:10 compare
+SAME results/editorial/fig1_channel_gaps.csv
+SAME results/est/estimation_error.csv
+SAME results/finite_cap/block_full_rerun.csv
+SAME results/finite_cap/block_jackknife.csv
+SAME results/finite_cap/block_level.csv
+SAME results/finite_cap/li_certificate.csv
+SAME results/finite_cap/li_vs_ld.csv
+SAME results/finite_cap/part1/finite_cap_application.csv
+SAME results/finite_cap/part2/finite_cap_application.csv
+SAME results/finite_cap/plugin_cvx_oos.csv
+SAME results/finite_cap/presence_rule_oos.csv
+SAME results/finite_cap/saturation.csv
+SAME results/finite_cap/saturation_closed_form.csv
+SAME results/finite_cap/saturation_stability_boot.csv
+SAME results/finite_cap/saturation_stability_full.csv
+SAME results/finite_cap/saturation_stability_lobo.csv
+SAME results/finite_cap/stability_rows.tex
+SAME results/finite_cap/summary.csv
+SAME results/finite_cap/table4_rows.tex
+=== 09:28:10 done
+=== 08:25:54 3b
+=== 08:46:51 12
+=== 09:00:04 laneB-done

@@ -1,0 +1,20 @@
+[project]
+name = "paef"
+version = "0.0.1"
+description = "Evidence fusion under incomplete provenance (research code)"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "scikit-learn>=1.4", "matplotlib>=3.8", "pandas>=2.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

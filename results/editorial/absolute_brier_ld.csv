@@ -1,0 +1,9 @@
+data,mechanism,count_gbdt,presence_feature_gbdt,unique_count_gbdt
+R10,storm_inc,0.0381,0.1468,0.0322
+R10,storm_ben,0.1539,0.1468,0.0322
+R6,storm_inc,0.1207,0.1586,0.1353
+R6,storm_ben,0.1830,0.1586,0.1353
+R11_control,storm_inc,0.0579,0.2218,0.0330
+R11_control,storm_ben,0.1920,0.2218,0.0330
+R11_loaded,storm_inc,0.1026,0.1411,0.1225
+R11_loaded,storm_ben,0.1602,0.1411,0.1225

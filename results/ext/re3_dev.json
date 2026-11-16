@@ -1,0 +1,338 @@
+{
+ "auroc": {
+  "cross|gbdt|BOTH|RE3-OB": 0.6178,
+  "cross|gbdt|BOTH|RE3-SS": 0.8333,
+  "cross|gbdt|BOTH|RE3-TT": 0.9978,
+  "cross|gbdt|COUNT|RE3-OB": 1.0,
+  "cross|gbdt|COUNT|RE3-SS": 0.5,
+  "cross|gbdt|COUNT|RE3-TT": 0.7689,
+  "cross|gbdt|RATE|RE3-OB": 1.0,
+  "cross|gbdt|RATE|RE3-SS": 0.6833,
+  "cross|gbdt|RATE|RE3-TT": 0.9944,
+  "cross|gbdt|UNIT|RE3-OB": 0.6333,
+  "cross|gbdt|UNIT|RE3-SS": 0.805,
+  "cross|gbdt|UNIT|RE3-TT": 1.0,
+  "cross|logit|BOTH|RE3-OB": 0.3744,
+  "cross|logit|BOTH|RE3-SS": 0.8433,
+  "cross|logit|BOTH|RE3-TT": 1.0,
+  "cross|logit|COUNT|RE3-OB": 1.0,
+  "cross|logit|COUNT|RE3-SS": 0.6122,
+  "cross|logit|COUNT|RE3-TT": 0.9911,
+  "cross|logit|RATE|RE3-OB": 0.9367,
+  "cross|logit|RATE|RE3-SS": 0.71,
+  "cross|logit|RATE|RE3-TT": 1.0,
+  "cross|logit|UNIT|RE3-OB": 0.8767,
+  "cross|logit|UNIT|RE3-SS": 0.8194,
+  "cross|logit|UNIT|RE3-TT": 1.0,
+  "within|gbdt|BOTH|RE3-OB": 1.0,
+  "within|gbdt|BOTH|RE3-SS": 0.8011,
+  "within|gbdt|BOTH|RE3-TT": 0.9622,
+  "within|gbdt|COUNT|RE3-OB": 1.0,
+  "within|gbdt|COUNT|RE3-SS": 0.725,
+  "within|gbdt|COUNT|RE3-TT": 0.9,
+  "within|gbdt|RATE|RE3-OB": 1.0,
+  "within|gbdt|RATE|RE3-SS": 0.9156,
+  "within|gbdt|RATE|RE3-TT": 1.0,
+  "within|gbdt|UNIT|RE3-OB": 0.9556,
+  "within|gbdt|UNIT|RE3-SS": 0.8117,
+  "within|gbdt|UNIT|RE3-TT": 1.0,
+  "within|logit|BOTH|RE3-OB": 0.9956,
+  "within|logit|BOTH|RE3-SS": 0.7611,
+  "within|logit|BOTH|RE3-TT": 1.0,
+  "within|logit|COUNT|RE3-OB": 1.0,
+  "within|logit|COUNT|RE3-SS": 0.3622,
+  "within|logit|COUNT|RE3-TT": 0.9789,
+  "within|logit|RATE|RE3-OB": 0.9944,
+  "within|logit|RATE|RE3-SS": 0.7967,
+  "within|logit|RATE|RE3-TT": 1.0,
+  "within|logit|UNIT|RE3-OB": 0.8411,
+  "within|logit|UNIT|RE3-SS": 0.7828,
+  "within|logit|UNIT|RE3-TT": 1.0
+ },
+ "brier": {
+  "cross|gbdt|BOTH|RE3-OB": 0.24628,
+  "cross|gbdt|BOTH|RE3-SS": 0.16666,
+  "cross|gbdt|BOTH|RE3-TT": 0.11409,
+  "cross|gbdt|COUNT|RE3-OB": 0.03521,
+  "cross|gbdt|COUNT|RE3-SS": 0.49952,
+  "cross|gbdt|COUNT|RE3-TT": 0.32066,
+  "cross|gbdt|RATE|RE3-OB": 0.02239,
+  "cross|gbdt|RATE|RE3-SS": 0.49998,
+  "cross|gbdt|RATE|RE3-TT": 0.22087,
+  "cross|gbdt|UNIT|RE3-OB": 0.26087,
+  "cross|gbdt|UNIT|RE3-SS": 0.14901,
+  "cross|gbdt|UNIT|RE3-TT": 0.14232,
+  "cross|logit|BOTH|RE3-OB": 0.39778,
+  "cross|logit|BOTH|RE3-SS": 0.26392,
+  "cross|logit|BOTH|RE3-TT": 0.0456,
+  "cross|logit|COUNT|RE3-OB": 0.11921,
+  "cross|logit|COUNT|RE3-SS": 0.43261,
+  "cross|logit|COUNT|RE3-TT": 0.13874,
+  "cross|logit|RATE|RE3-OB": 0.12868,
+  "cross|logit|RATE|RE3-SS": 0.41499,
+  "cross|logit|RATE|RE3-TT": 0.09398,
+  "cross|logit|UNIT|RE3-OB": 0.15546,
+  "cross|logit|UNIT|RE3-SS": 0.13769,
+  "cross|logit|UNIT|RE3-TT": 0.05525,
+  "within|gbdt|BOTH|RE3-OB": 0.0,
+  "within|gbdt|BOTH|RE3-SS": 0.19777,
+  "within|gbdt|BOTH|RE3-TT": 0.06666,
+  "within|gbdt|COUNT|RE3-OB": 0.0,
+  "within|gbdt|COUNT|RE3-SS": 0.24384,
+  "within|gbdt|COUNT|RE3-TT": 0.10664,
+  "within|gbdt|RATE|RE3-OB": 0.0,
+  "within|gbdt|RATE|RE3-SS": 0.13685,
+  "within|gbdt|RATE|RE3-TT": 0.0,
+  "within|gbdt|UNIT|RE3-OB": 0.08999,
+  "within|gbdt|UNIT|RE3-SS": 0.11058,
+  "within|gbdt|UNIT|RE3-TT": 0.0,
+  "within|logit|BOTH|RE3-OB": 0.03128,
+  "within|logit|BOTH|RE3-SS": 0.13799,
+  "within|logit|BOTH|RE3-TT": 0.01172,
+  "within|logit|COUNT|RE3-OB": 0.01985,
+  "within|logit|COUNT|RE3-SS": 0.23713,
+  "within|logit|COUNT|RE3-TT": 0.06729,
+  "within|logit|RATE|RE3-OB": 0.0359,
+  "within|logit|RATE|RE3-SS": 0.17928,
+  "within|logit|RATE|RE3-TT": 0.01328,
+  "within|logit|UNIT|RE3-OB": 0.14792,
+  "within|logit|UNIT|RE3-SS": 0.15401,
+  "within|logit|UNIT|RE3-TT": 0.01007
+ },
+ "gate_systems": [
+  "RE3-OB",
+  "RE3-SS",
+  "RE3-TT"
+ ],
+ "gbdt": {
+  "H-W": {
+   "est": 0.23865,
+   "ci95": [
+    0.05944,
+    0.35496
+   ],
+   "per_system_brier": {
+    "RE3-OB": {
+     "COUNT": 0.0352,
+     "UNIT": 0.2609
+    },
+    "RE3-SS": {
+     "COUNT": 0.4995,
+     "UNIT": 0.149
+    },
+    "RE3-TT": {
+     "COUNT": 0.3207,
+     "UNIT": 0.1423
+    }
+   },
+   "confirmed": true
+  },
+  "H-WB": {
+   "est": -0.01459,
+   "ci95": [
+    -0.04235,
+    0.03489
+   ],
+   "per_system_brier": {
+    "RE3-OB": {
+     "BOTH": 0.2463,
+     "UNIT": 0.2609
+    },
+    "RE3-SS": {
+     "BOTH": 0.1667,
+     "UNIT": 0.149
+    },
+    "RE3-TT": {
+     "BOTH": 0.1141,
+     "UNIT": 0.1423
+    }
+   },
+   "confirmed": false
+  },
+  "H-A": {
+   "est": 0.10107,
+   "ci95": [
+    0.02001,
+    0.17455
+   ],
+   "per_system_brier": {
+    "RE3-OB": {
+     "COUNT": 0.0352,
+     "UNIT": 0.2609
+    },
+    "RE3-SS": {
+     "COUNT": 0.4995,
+     "UNIT": 0.149
+    },
+    "RE3-TT": {
+     "COUNT": 0.3207,
+     "UNIT": 0.1423
+    }
+   },
+   "confirmed": true
+  },
+  "H-C": {
+   "est": 0.10538,
+   "ci95": [
+    -0.07884,
+    0.26401
+   ],
+   "per_system_brier": {
+    "RE3-OB": {
+     "COUNT": 0.0352,
+     "UNIT": 0.2609
+    },
+    "RE3-SS": {
+     "COUNT": 0.4995,
+     "UNIT": 0.149
+    },
+    "RE3-TT": {
+     "COUNT": 0.3207,
+     "UNIT": 0.1423
+    }
+   },
+   "confirmed": false
+  },
+  "RATE_vs_UNIT_worst": {
+   "est": 0.23911,
+   "ci95": [
+    0.0599,
+    0.35542
+   ],
+   "per_system_brier": {
+    "RE3-OB": {
+     "RATE": 0.0224,
+     "UNIT": 0.2609
+    },
+    "RE3-SS": {
+     "RATE": 0.5,
+     "UNIT": 0.149
+    },
+    "RE3-TT": {
+     "RATE": 0.2209,
+     "UNIT": 0.1423
+    }
+   },
+   "confirmed": true
+  }
+ },
+ "logit": {
+  "H-W": {
+   "est": 0.27715,
+   "ci95": [
+    0.17287,
+    0.3211
+   ],
+   "per_system_brier": {
+    "RE3-OB": {
+     "COUNT": 0.1192,
+     "UNIT": 0.1555
+    },
+    "RE3-SS": {
+     "COUNT": 0.4326,
+     "UNIT": 0.1377
+    },
+    "RE3-TT": {
+     "COUNT": 0.1387,
+     "UNIT": 0.0553
+    }
+   },
+   "confirmed": true
+  },
+  "H-WB": {
+   "est": 0.24232,
+   "ci95": [
+    0.10946,
+    0.30744
+   ],
+   "per_system_brier": {
+    "RE3-OB": {
+     "BOTH": 0.3978,
+     "UNIT": 0.1555
+    },
+    "RE3-SS": {
+     "BOTH": 0.2639,
+     "UNIT": 0.1377
+    },
+    "RE3-TT": {
+     "BOTH": 0.0456,
+     "UNIT": 0.0553
+    }
+   },
+   "confirmed": true
+  },
+  "H-A": {
+   "est": 0.11405,
+   "ci95": [
+    0.06849,
+    0.15409
+   ],
+   "per_system_brier": {
+    "RE3-OB": {
+     "COUNT": 0.1192,
+     "UNIT": 0.1555
+    },
+    "RE3-SS": {
+     "COUNT": 0.4326,
+     "UNIT": 0.1377
+    },
+    "RE3-TT": {
+     "COUNT": 0.1387,
+     "UNIT": 0.0553
+    }
+   },
+   "confirmed": true
+  },
+  "H-C": {
+   "est": 0.19404,
+   "ci95": [
+    0.13119,
+    0.26782
+   ],
+   "per_system_brier": {
+    "RE3-OB": {
+     "COUNT": 0.1192,
+     "UNIT": 0.1555
+    },
+    "RE3-SS": {
+     "COUNT": 0.4326,
+     "UNIT": 0.1377
+    },
+    "RE3-TT": {
+     "COUNT": 0.1387,
+     "UNIT": 0.0553
+    }
+   },
+   "confirmed": true
+  },
+  "RATE_vs_UNIT_worst": {
+   "est": 0.25952,
+   "ci95": [
+    0.16656,
+    0.30061
+   ],
+   "per_system_brier": {
+    "RE3-OB": {
+     "RATE": 0.1287,
+     "UNIT": 0.1555
+    },
+    "RE3-SS": {
+     "RATE": 0.415,
+     "UNIT": 0.1377
+    },
+    "RE3-TT": {
+     "RATE": 0.094,
+     "UNIT": 0.0553
+    }
+   },
+   "confirmed": true
+  }
+ },
+ "decision": {
+  "H_W": true,
+  "H_WB": false,
+  "H_A": true,
+  "H_C": false,
+  "GO": true
+ }
+}

@@ -1,0 +1,8 @@
+services:
+  load:
+    image: paef-testbed:0.1
+    entrypoint: ["python3", "/scripts/loadgen.py"]
+    volumes:
+      - ./out:/out
+      - ./scripts:/scripts:ro
+    depends_on: [core]

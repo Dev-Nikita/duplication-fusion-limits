@@ -1,0 +1,241 @@
+{
+ "R8_P1_la_aug_vs_augmented_dup": {
+  "est": -0.0056,
+  "t_ci95": [
+   -0.0183,
+   0.0072
+  ],
+  "positive_blocks": 3,
+  "per_block": {
+   "4": 0.0066,
+   "5": 0.0001,
+   "6": 0.0068,
+   "10": -0.0073,
+   "11": -0.0195,
+   "12": -0.0199
+  },
+  "holds": false
+ },
+ "R8_P2_noninferiority_default": {
+  "est": -0.0001,
+  "t_ci95": [
+   -0.0004,
+   0.0002
+  ],
+  "positive_blocks": 2,
+  "per_block": {
+   "4": 0.0002,
+   "5": -0.0002,
+   "6": 0.0004,
+   "10": -0.0002,
+   "11": -0.0001,
+   "12": -0.0006
+  },
+  "one_sided_upper95": 0.0002,
+  "holds": true
+ },
+ "per_scenario_la_vs_aug": {
+  "am_default": {
+   "est": 0.0001,
+   "t_ci95": [
+    -0.0002,
+    0.0004
+   ],
+   "positive_blocks": 4,
+   "per_block": {
+    "4": -0.0002,
+    "5": 0.0002,
+    "6": -0.0004,
+    "10": 0.0002,
+    "11": 0.0001,
+    "12": 0.0006
+   }
+  },
+  "am_ha_replica": {
+   "est": -0.0101,
+   "t_ci95": [
+    -0.0315,
+    0.0112
+   ],
+   "positive_blocks": 2,
+   "per_block": {
+    "4": 0.01,
+    "5": -0.0,
+    "6": 0.0115,
+    "10": -0.0159,
+    "11": -0.0324,
+    "12": -0.0339
+   }
+  },
+  "am_multiroute": {
+   "est": 0.0001,
+   "t_ci95": [
+    -0.0005,
+    0.0007
+   ],
+   "positive_blocks": 2,
+   "per_block": {
+    "4": -0.0002,
+    "5": -0.0003,
+    "6": -0.0004,
+    "10": 0.0011,
+    "11": 0.0005,
+    "12": -0.0002
+   }
+  },
+  "am_inhibit": {
+   "est": 0.0001,
+   "t_ci95": [
+    -0.0002,
+    0.0004
+   ],
+   "positive_blocks": 4,
+   "per_block": {
+    "4": -0.0001,
+    "5": 0.0002,
+    "6": -0.0003,
+    "10": 0.0002,
+    "11": 0.0001,
+    "12": 0.0006
+   }
+  },
+  "am_truncate": {
+   "est": -0.0004,
+   "t_ci95": [
+    -0.0007,
+    -0.0001
+   ],
+   "positive_blocks": 0,
+   "per_block": {
+    "4": -0.0003,
+    "5": -0.0004,
+    "6": -0.0006,
+    "10": -0.0009,
+    "11": -0.0002,
+    "12": -0.0001
+   }
+  },
+  "am_combined": {
+   "est": -0.0066,
+   "t_ci95": [
+    -0.0238,
+    0.0106
+   ],
+   "positive_blocks": 3,
+   "per_block": {
+    "4": 0.01,
+    "5": 0.0005,
+    "6": 0.0092,
+    "10": -0.007,
+    "11": -0.0267,
+    "12": -0.0257
+   }
+  }
+ },
+ "per_scenario_a4_vs_aug": {
+  "am_default": -0.0006,
+  "am_ha_replica": -0.0067,
+  "am_multiroute": -0.0067,
+  "am_inhibit": -0.0005,
+  "am_truncate": -0.0001,
+  "am_combined": -0.0157
+ },
+ "per_scenario_gap_to_matched": {
+  "am_default": -0.0006,
+  "am_ha_replica": -0.0012,
+  "am_multiroute": -0.0014,
+  "am_inhibit": -0.0007,
+  "am_truncate": 0.0976,
+  "am_combined": -0.0019
+ },
+ "per_task_P1": {
+  "amf_stall": -0.0053,
+  "ausf_stall": -0.0047,
+  "net_delay": -0.0027,
+  "reg_reject": -0.0096
+ },
+ "P1_excluding_reg_reject": {
+  "est": -0.0042,
+  "t_ci95": [
+   -0.0174,
+   0.0089
+  ],
+  "positive_blocks": 3,
+  "per_block": {
+   "4": 0.0088,
+   "5": 0.0002,
+   "6": 0.0091,
+   "10": -0.006,
+   "11": -0.0188,
+   "12": -0.0185
+  }
+ },
+ "absolute_brier": {
+  "am_default": {
+   "stacking": 0.1227,
+   "augmented": 0.1045,
+   "a4": 0.105,
+   "la_aug": 0.1044,
+   "presence": 0.1277,
+   "matched": 0.105
+  },
+  "am_ha_replica": {
+   "stacking": 0.1054,
+   "augmented": 0.1042,
+   "a4": 0.1109,
+   "la_aug": 0.1143,
+   "presence": 0.1277,
+   "matched": 0.1054
+  },
+  "am_multiroute": {
+   "stacking": 0.11,
+   "augmented": 0.1042,
+   "a4": 0.1109,
+   "la_aug": 0.1041,
+   "presence": 0.1277,
+   "matched": 0.1056
+  },
+  "am_inhibit": {
+   "stacking": 0.1232,
+   "augmented": 0.1045,
+   "a4": 0.105,
+   "la_aug": 0.1044,
+   "presence": 0.133,
+   "matched": 0.1052
+  },
+  "am_truncate": {
+   "stacking": 0.244,
+   "augmented": 0.2107,
+   "a4": 0.2108,
+   "la_aug": 0.2111,
+   "presence": 0.1277,
+   "matched": 0.1131
+  },
+  "am_combined": {
+   "stacking": 0.1211,
+   "augmented": 0.1043,
+   "a4": 0.12,
+   "la_aug": 0.111,
+   "presence": 0.133,
+   "matched": 0.1062
+  }
+ },
+ "copies_per_window": {
+  "n_copies": {
+   "am_combined": 29.9,
+   "am_default": 0.0,
+   "am_ha_replica": 0.0,
+   "am_inhibit": 0.0,
+   "am_multiroute": 16.3,
+   "am_truncate": 0.0
+  },
+  "n_invisible": {
+   "am_combined": 7.5,
+   "am_default": 0.0,
+   "am_ha_replica": 8.2,
+   "am_inhibit": 0.0,
+   "am_multiroute": 0.0,
+   "am_truncate": 0.0
+  }
+ }
+}

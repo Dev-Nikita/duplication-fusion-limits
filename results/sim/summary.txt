@@ -1,0 +1,75 @@
+== class counts (192 cells)
+A {'fails': 191, 'undet': 1}
+F {'fails': 128, 'works': 35, 'undet': 29}
+A+U {'fails': 111, 'undet': 71, 'works': 10}
+
+== E1: A gap by kappa (mean over cells)
+         mean     min     max
+kappa                        
+0.0    0.2053  0.0138  0.3976
+0.3    0.2876  0.0420  0.5144
+0.6    0.3720  0.0573  0.6279
+
+== E2: F gap by q (known pop, sil=0), by kappa=0.6
+rho     0.1     0.3     0.6     0.9
+q                                  
+0.0  0.0539  0.0713  0.0262  0.0010
+0.1  0.1531  0.2925  0.1858  0.1387
+0.3  0.2056  0.4429  0.5043  0.3988
+0.6  0.2396  0.4598  0.5945  0.5695
+
+== E3: F gap, pop unknown vs known (sil=0, q=0, kappa=0.6) by rho
+rho         0.1     0.3     0.6     0.9
+pop                                    
+known    0.0539  0.0713  0.0262  0.0010
+unknown  0.1305  0.2635  0.2384  0.1241
+
+== E4: F gap, sil 0 vs 0.5 (known pop, kappa=0.6) by q x rho
+rho         0.1     0.3     0.6     0.9
+sil q                                  
+0.0 0.0  0.0539  0.0713  0.0262  0.0010
+    0.1  0.1531  0.2925  0.1858  0.1387
+    0.3  0.2056  0.4429  0.5043  0.3988
+    0.6  0.2396  0.4598  0.5945  0.5695
+0.5 0.0  0.1104 -0.0071 -0.0811 -0.0470
+    0.1  0.0050 -0.0475 -0.0822 -0.0462
+    0.3  0.0454  0.0456  0.0221 -0.0323
+    0.6  0.0635  0.2157  0.2129  0.1005
+
+== E5: A+U gap
+count    192.0000
+mean       0.0383
+std        0.0249
+min        0.0001
+25%        0.0192
+50%        0.0342
+75%        0.0542
+max        0.1096
+Name: A+U_mean, dtype: float64
+
+== A gap (known pop, sil=0, q=0) kappa x rho
+rho       0.1     0.3     0.6     0.9
+kappa                                
+0.0    0.0911  0.2796  0.3873  0.3898
+0.3    0.1608  0.3855  0.5002  0.5019
+0.6    0.2228  0.4973  0.6119  0.6212
+
+== F class map, kappa=0.6
+rho                0.1    0.3    0.6    0.9
+pop     sil q                              
+known   0.0 0.0  fails  fails  undet  works
+            0.1  fails  fails  fails  undet
+            0.3  fails  fails  fails  fails
+            0.6  fails  fails  fails  fails
+        0.5 0.0  fails  undet  works  works
+            0.1  undet  works  works  works
+            0.3  fails  undet  undet  works
+            0.6  fails  fails  fails  fails
+unknown 0.0 0.0  fails  fails  fails  fails
+            0.1  fails  fails  fails  fails
+            0.3  fails  fails  fails  fails
+            0.6  fails  fails  fails  fails
+        0.5 0.0  fails  fails  undet  works
+            0.1  fails  fails  fails  works
+            0.3  fails  fails  fails  works
+            0.6  fails  fails  fails  fails

@@ -1,0 +1,65 @@
+article_item,section,inputs,command,output_file,sha256
+Theorem 2 (numerical check),Sec. 5,-,python3 tools/test_finite_cap_independent.py,tools/test_finite_cap_independent.py,25ce50f6b2d14658b3a951774a2d715ee2a1ae6b08d97bdcc72115dc0c260f43
+Theorem 2 (numerical check),Sec. 5,-,python3 tools/test_finite_cap_independent.py,tools/finite_cap_solvers.py,f6b9fbd5c9bb6837232407651e1fbecbcfef80ac02407817e1030faabfeee98b
+Proposition 4 (numerical check),Sec. 5,-,python3 tools/saturation_closed_form.py,tools/saturation_closed_form.py,df0a4e36fc1f9d96e130649881f9f5c40bde125dc11784ac16f8aa4d1901f533
+Proposition 5 (numerical check),Sec. 5,-,python3 -W ignore tools/quantitative_saturation.py,tools/quantitative_saturation.py,01f93630e79c0f7ad27257219b2c15753591a70ae49501ce7a5c1b3acd039306
+Proposition 5 (numerical check),Sec. 5,-,python3 -W ignore tools/quantitative_saturation.py,results/finite_cap/quantitative_saturation_check.txt,3cdf38536ea307e55eab59838a4fd04cb305e6bc41551267cd458b6babb039c6
+Propositions 6-7 (numerical check),Sec. 5.1-5.2,-,python3 -W ignore tools/extended_models.py,tools/extended_models.py,46b0022a7434f99e25d6ffb14ddd29a2ae1b3dc612984434af8fb74e9795d882
+Propositions 6-7 (numerical check),Sec. 5.1-5.2,-,python3 -W ignore tools/extended_models.py,results/finite_cap/extended_models_check.txt,de9d8d08598cdeae16572c9429ba65aec59d534970e62e776f76897343d02ca2
+Edge cases,Sec. 5,-,python3 -m pytest -q tests/test_theory_adversarial.py,tests/test_theory_adversarial.py,02a0dcfd02e0fc5251327c750685a012ad3632f9ca4418016294fc091d0a850a
+Table 3,Sec. 7.2,results/r10/units.csv; results/r6/units.csv,experiments/r11x/replicate.py; experiments/r11x/evaluate_r11x.py; experiments/r11x/robust_seeds.py,results/r11x_rep/r10.json,ed29b9e38204dac7145428edeeebf4829d3221db84a48e0336cdede2ddb9e2d1
+Table 3,Sec. 7.2,results/r10/units.csv; results/r6/units.csv,experiments/r11x/replicate.py; experiments/r11x/evaluate_r11x.py; experiments/r11x/robust_seeds.py,results/r11x_rep/r6.json,c483d07847b22eee72f910d32d90d317053d0340cc594de98b2224725d7fb6de
+Table 3,Sec. 7.2,results/r10/units.csv; results/r6/units.csv,experiments/r11x/replicate.py; experiments/r11x/evaluate_r11x.py; experiments/r11x/robust_seeds.py,results/r11x_rep/r10_eval.txt,f347692e7397cfaccf0a4f39da7c3e01e1ceb44bfe092118eff0cca33d424a6f
+Table 3,Sec. 7.2,results/r10/units.csv; results/r6/units.csv,experiments/r11x/replicate.py; experiments/r11x/evaluate_r11x.py; experiments/r11x/robust_seeds.py,results/r11x_rep/r6_eval.txt,75cca8f7ab07353dc31d1d7ceb856663aa5fd99531dcf74082c4346f214e563f
+Table 3,Sec. 7.2,results/r10/units.csv; results/r6/units.csv,experiments/r11x/replicate.py; experiments/r11x/evaluate_r11x.py; experiments/r11x/robust_seeds.py,results/r11x_seeds10/r10.json,fba8df4a16d25bdd682df080c3e9441337b450c2c27f56aae969385ef7be2654
+Table 3,Sec. 7.2,results/r10/units.csv; results/r6/units.csv,experiments/r11x/replicate.py; experiments/r11x/evaluate_r11x.py; experiments/r11x/robust_seeds.py,results/r11x_seeds10/r6.json,853c734e60da4f8f663bca4331b47ce4bd414b13a9fa234a9b8e6f105ca9a50b
+Table 4,Sec. 7.3,results/r10/units.csv; results/r6/units.csv; results/r11/units_cond.csv,REPRODUCE.md steps 6-9,results/finite_cap/part1/finite_cap_application.csv,851fac90859e3651f014d650a4c5ddf612f97f6fc24abe569df54031d65d3145
+Table 4,Sec. 7.3,results/r10/units.csv; results/r6/units.csv; results/r11/units_cond.csv,REPRODUCE.md steps 6-9,results/finite_cap/part2/finite_cap_application.csv,7d625964f6148d7364d4a08294d698df8d7ac49c905c96bf29a151131e8dee41
+Table 4,Sec. 7.3,results/r10/units.csv; results/r6/units.csv; results/r11/units_cond.csv,REPRODUCE.md steps 6-9,results/finite_cap/plugin_cvx_oos.csv,37393646ea75a557dab961391bb22924a472157242aeef1fe6b07d794b697c4c
+Table 4,Sec. 7.3,results/r10/units.csv; results/r6/units.csv; results/r11/units_cond.csv,REPRODUCE.md steps 6-9,results/finite_cap/presence_rule_oos.csv,538c05900d3258c00008470039ce64dfb184e8f7924e41bacbdc347c2642814b
+Table 4,Sec. 7.3,results/r10/units.csv; results/r6/units.csv; results/r11/units_cond.csv,REPRODUCE.md steps 6-9,results/finite_cap/li_vs_ld.csv,eb96df4078581b371d57861f36d587823c8c89349bfcc7db64b43682f52be7f4
+Table 4,Sec. 7.3,results/r10/units.csv; results/r6/units.csv; results/r11/units_cond.csv,REPRODUCE.md steps 6-9,results/finite_cap/li_certificate.csv,0a4aead4aa85955b37dd280df94062adf35b703a67acb5a67657a082769686fd
+Table 4,Sec. 7.3,results/r10/units.csv; results/r6/units.csv; results/r11/units_cond.csv,REPRODUCE.md steps 6-9,results/finite_cap/saturation_closed_form.csv,f3e68c6620bc2dc72468a3b8ef3a69d25aefe03aa8ce14cecbd7eab7c4a031ae
+Table 4,Sec. 7.3,results/r10/units.csv; results/r6/units.csv; results/r11/units_cond.csv,REPRODUCE.md steps 6-9,results/finite_cap/summary.csv,6f13c27ccfd48acb97eedf80e2ef4e89461c9ba93bc6dd1597c6dcbdce289728
+Table 4,Sec. 7.3,results/r10/units.csv; results/r6/units.csv; results/r11/units_cond.csv,REPRODUCE.md steps 6-9,results/finite_cap/table4_rows.tex,587cd20c96b678b52d294428b543d4de51fbfb33e2fbda39337a476f5be2ae36
+Figure 1,Sec. 7.3,results/finite_cap/summary.csv,python3 tools/summarise_finite_cap.py,results/finite_cap/summary.csv,6f13c27ccfd48acb97eedf80e2ef4e89461c9ba93bc6dd1597c6dcbdce289728
+Block-level and leave-one-block-out,Sec. 7.3,per-UE readings,python3 -W ignore tools/block_sensitivity.py,results/finite_cap/block_full_rerun.csv,931218d27a4b2de206a37e13ecec9bc5e5c24038aa901c236aa95e317075a399
+Block-level and leave-one-block-out,Sec. 7.3,per-UE readings,python3 -W ignore tools/block_sensitivity.py,results/finite_cap/block_level.csv,6846870a69dc5c0b69e29eb8ad3bcfa82a65eb8e710c91389ca3fa1fbd2049a6
+Block-level and leave-one-block-out,Sec. 7.3,per-UE readings,python3 -W ignore tools/block_sensitivity.py,results/finite_cap/block_jackknife.csv,54d97cedf2b3119fccd616de34ed1db6a01c961d99a13656f897039c1c9a1018
+Table 5,Sec. 7.3,per-UE readings,REPRODUCE.md step 11,results/finite_cap/saturation_stability_full.csv,8349ff14611cb9ab24e692a7ea6144988a26a08dfe14c945c49a8d95f695497c
+Table 5,Sec. 7.3,per-UE readings,REPRODUCE.md step 11,results/finite_cap/saturation_stability_boot.csv,69117e31b3d36642b1e7fb2680f75a0ba5945f3b3076fc3861a6c85d622503bc
+Table 5,Sec. 7.3,per-UE readings,REPRODUCE.md step 11,results/finite_cap/saturation_stability_lobo.csv,de5c76ddffbcad77fecb65ad899a6728ec3def2d14f43ebe58af140e33d15fed
+Table 5,Sec. 7.3,per-UE readings,REPRODUCE.md step 11,results/finite_cap/stability_rows.tex,58ec90f3f1bfa884767769ab6f692cf2f7ec4f04fc884519068afba0470bb16b
+Table 6,Sec. 7.4,results/finite_cap/fold_laws.pkl,REPRODUCE.md steps 12-13,results/est/estimation_error.csv,f2f34146a6118ac5532230987c55fff95de86b0bad15e315e4a5537155138cc3
+Table 6,Sec. 7.4,results/finite_cap/fold_laws.pkl,REPRODUCE.md steps 12-13,results/est/baselines.csv,50dfd079cf25326857a7d330d7ca2863228bfe32229a90afaf1bdace70f9493b
+Table 6,Sec. 7.4,results/finite_cap/fold_laws.pkl,REPRODUCE.md steps 12-13,results/est/baseline_rows.tex,727ae339131396ecd1d49f444126fd97211f74c1ec395f1f05bb01a79b264827
+Table 6,Sec. 7.4,results/finite_cap/fold_laws.pkl,REPRODUCE.md steps 12-13,docs/est-protocol.md,cfd967b6d2e8e43f1fe82b10ecaf72f972dad101c8e3ff72c7a40a17ccfee351
+Mechanism information; second type,Sec. 7.5,per-UE readings,REPRODUCE.md step 14,results/finite_cap/exchangeability.csv,843e104b67e86b1c24f5e42b5358b56b50a13cec05dd162cde6c1f6c87d27c2d
+Mechanism information; second type,Sec. 7.5,per-UE readings,REPRODUCE.md step 14,results/finite_cap/multitype.csv,23e596403b32c4f3b3b4f021100f16cdfdfbed7a82ad5227efe449ed03811f32
+Alertmanager emulation,Sec. 7.6,results/r6/units.csv,experiments/r11x/explore_r8.py,results/r8x/r8x_cells.csv,b8421d7985b98db6e6f2dae997900dbd398de2359835d0aca968708dd6223809
+Tables S7-S8 (frozen run),S4,Flight archives (external),REPRODUCE.md step 16,docs/flight-protocol.md,22bf81b8918b8b99b766c52f44602cbceb5c43119b92f28a4165118cb61aeba3
+Tables S7-S8 (frozen run),S4,Flight archives (external),REPRODUCE.md step 16,experiments/flight/flight_study.py,b6b5a14a0b0993522cb2c32e7d91d5826857d7ccacaaa1fa300b185d16f5564e
+Tables S7-S8 (frozen run),S4,Flight archives (external),REPRODUCE.md step 16,experiments/flight/flight_evaluate.py,c43c3d192305d0deeae696d8113a6174771ef4919bf4a930513b87936da9a4ee
+Tables S7-S8 (frozen run),S4,Flight archives (external),REPRODUCE.md step 16,experiments/flight/flight_io.py,c11f989b4cb406df65f93bca6cf01997a7e314f7dd9fa0e69535af2474646857
+Tables S7-S8 (frozen run),S4,Flight archives (external),REPRODUCE.md step 16,results/flight/flight_results.csv,6f6e12a9b6fc7dee4f055faa7c7496d98dded75eaa33f3dac9c70316163f586f
+Tables S7-S8 (frozen run),S4,Flight archives (external),REPRODUCE.md step 16,results/flight/flight_descriptors.json,92404135112f42a0c3acf522dba5d0fda075f182865b8b24fc7e553713a5b3f4
+Tables S7-S8 (frozen run),S4,Flight archives (external),REPRODUCE.md step 16,results/flight/evaluate.txt,8a848d76bdd1993c48f18efcf7efa9e850a22a79a30460b361e4468b39f0abee
+"Table 7 (corrected), Tables S5-S6: gold-source audit",Sec. 8.1; S4,Flight archives (external),REPRODUCE.md step 17,docs/flight-addendum-R2.md,c8b14a634b768dc9dc8aaa361343d50a36a610cfd4acf806ee630ead82e47da8
+"Table 7 (corrected), Tables S5-S6: gold-source audit",Sec. 8.1; S4,Flight archives (external),REPRODUCE.md step 17,experiments/flight/flight_audit.py,abb61ee54e5e90a295fc6f16e30d0b90c9da00f6aa890dd6cb60862ad8f81793
+"Table 7 (corrected), Tables S5-S6: gold-source audit",Sec. 8.1; S4,Flight archives (external),REPRODUCE.md step 17,experiments/flight/flight_audit_descriptors.py,e7efb3794d6d0c0672aa37ace67aec92eb34775b6a0cf7e3da58fda27985b586
+"Table 7 (corrected), Tables S5-S6: gold-source audit",Sec. 8.1; S4,Flight archives (external),REPRODUCE.md step 17,results/flight/audit_R2/flight_gold_overlap.csv,0d357218259039de3297783e3c2ee2125a8b56bd2e4971c55bcffac258d3bb51
+"Table 7 (corrected), Tables S5-S6: gold-source audit",Sec. 8.1; S4,Flight archives (external),REPRODUCE.md step 17,results/flight/audit_R2/flight_source_gold_agreement.csv,f41fa7a94e3c9cb756751afba99ee343951fcb00f4626059accdfb5aa55c1ef4
+"Table 7 (corrected), Tables S5-S6: gold-source audit",Sec. 8.1; S4,Flight archives (external),REPRODUCE.md step 17,results/flight/audit_R2/flight_gold_overlap_summary.json,174351bd70bbbec4be3078256096432dc8c3ce6c3a82c24eb9767a49e7bba008
+"Table 7 (corrected), Tables S5-S6: gold-source audit",Sec. 8.1; S4,Flight archives (external),REPRODUCE.md step 17,results/flight/audit_R2/flight_gold_exclusion_results.csv,b4f43bd9db4ccbde8f6ede143074cd85e64084482dd2009f3a82d31c8cbb3151
+"Table 7 (corrected), Tables S5-S6: gold-source audit",Sec. 8.1; S4,Flight archives (external),REPRODUCE.md step 17,results/flight/audit_R2/flight_descriptors_no_gold_sites.json,ab7315d21d2de2776c6bc7cd8a732fd1f8b6a491961f07f934739dec4d0a845f
+Cross-platform check,S5,results/finite_cap/fold_laws.pkl,python3 -W ignore tools/cross_platform_check.py 0 108,tools/cross_platform_check.py,843a4516fb6fb1346eaa7189538519dfc02cd364e747c8480e1c9e9557bbe83d
+Cross-platform check,S5,results/finite_cap/fold_laws.pkl,python3 -W ignore tools/cross_platform_check.py 0 108,results/finite_cap/cross_platform_2026-11-16.txt,8cbbc925c65b634201e1841afd7b5a59c0ebbe7c2cf96b90515410373f5afc73
+Cross-platform check,S5,results/finite_cap/fold_laws.pkl,python3 -W ignore tools/cross_platform_check.py 0 108,requirements_lock_2026-11-16.txt,ea5d5e6a540230722e588a1c71be725a2a658ecbe3fbd91152ce9fc0be7a7bae
+RCAEval RE3 / RE2,Sec. 8.2,RCAEval (external),experiments/ext/*.py,results/ext/re3_dev.json,b688f91d926022437fcc55c6097cf3ded3fd0f9d86e4cb5067a34bd332923451
+RCAEval RE3 / RE2,Sec. 8.2,RCAEval (external),experiments/ext/*.py,results/r12/re2_cells.csv,522eee6fc318ae204dbe89ca1ed205149dc0a86ac295995bdfb26992031b9856
+Figure S1; Table S3,S3,results/r11x/r11_cells.csv; results/r11x_rep/*/r11_cells.csv,python3 experiments/paper/figure1_values.py,results/editorial/fig1_channel_gaps.csv,aebc10c0640aea1a8dda8c6d7e2f4c411dd8579dc1e7c5cff7f2a7200011be37
+Table S4,S3,results/r11x cells,experiments/r11x/evaluate_r11x.py,results/editorial/absolute_brier_ld.csv,22afc118a60811e09e69017688b4a9b6a7bb81aa991a2381a5bb0aeefbce0041
+Table S2 and Sec. S2,S2,-,experiments/sim/run_resumable.py; experiments/sim/summarize.py,results/sim/sensitivity.csv,26f172c9b47309de2ad92c8c2cfb6335e674975b11b7ac63f821388691699fe3
+Table S2 and Sec. S2,S2,-,experiments/sim/run_resumable.py; experiments/sim/summarize.py,results/sim/summary.txt,7fe8a134da638c965d5aaf551f58361e2c697591cc070033f79164a2bd7fc82a
+Table S2 and Sec. S2,S2,-,experiments/sim/run_resumable.py; experiments/sim/summarize.py,docs/sim-protocol.md,62b21f936e252650546e130897ced6670d04542d95c71cb311146e00a2d8241f
+Clean-room log,S5,per-UE readings,bash tools/clean_room_run.sh <dir>,results/finite_cap/clean_room_2026-11-15.log,abb839954f6828e41fb6bb7d76b84c3d1288f782a38f805a3d56af7b374fb507

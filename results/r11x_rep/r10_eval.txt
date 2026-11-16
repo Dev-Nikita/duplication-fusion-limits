@@ -1,0 +1,40 @@
+{
+ "alarm_gbdt_aug": {
+  "est": 0.12179,
+  "lb95": 0.06034,
+  "ub95": 0.18323,
+  "above_delta": 6,
+  "n": 6
+ },
+ "alarm_gbdt_la": {
+  "est": 0.00285,
+  "lb95": -0.00013,
+  "ub95": 0.00583,
+  "above_delta": 1,
+  "n": 6
+ },
+ "full_gbdt_aug": {
+  "est": 0.00088,
+  "lb95": -0.00215,
+  "ub95": 0.0039,
+  "above_delta": 1,
+  "n": 6
+ },
+ "alarm_mix_oracle": {
+  "est": 0.01596,
+  "lb95": 0.00841,
+  "ub95": 0.0235,
+  "above_delta": 5,
+  "n": 6
+ },
+ "alarm_logistic": {
+  "est": 0.26841,
+  "lb95": 0.17848,
+  "ub95": 0.35835,
+  "above_delta": 6,
+  "n": 6
+ },
+ "X1": true,
+ "X2": false,
+ "X3": true
+}

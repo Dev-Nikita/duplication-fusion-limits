@@ -1,0 +1,25 @@
+full: {'n_D1': 108, 'mm_lt_naive_D1': np.float64(0.8611111111111112), 'mm_lt_pres_D1': np.float64(0.7407407407407407), 'mean_naive_minus_mm_D1': np.float64(0.05914225261817096), 'mean_pres_minus_mm_D1': np.float64(0.07265495369260835), 'n_D4': 108, 'mm_lt_naive_D4': np.float64(0.9537037037037037), 'mm_lt_pres_D4': np.float64(0.7037037037037037), 'mean_naive_minus_mm_D4': np.float64(0.10890331144370304), 'mean_pres_minus_mm_D4': np.float64(0.044104936031342856), 'n_D16': 108, 'mm_lt_naive_D16': np.float64(0.9722222222222222), 'mm_lt_pres_D16': np.float64(0.4351851851851852), 'mean_naive_minus_mm_D16': np.float64(0.13719234183689383), 'mean_pres_minus_mm_D16': np.float64(0.006709838915505326)}
+R10 13
+R10 14
+R10 15
+R10 16
+R10 17
+R10 18
+R6 4
+R6 5
+R6 6
+R6 10
+R6 11
+R6 12
+R11 21
+R11 22
+R11 23
+R11 24
+R11 25
+R11 26
+R11 27
+R11 28
+R11 29
+R11 30
+R11 31
+R11 32

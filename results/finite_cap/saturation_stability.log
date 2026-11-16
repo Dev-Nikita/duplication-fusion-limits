@@ -1,0 +1,12 @@
+R10 amf_stall
+R10 ausf_stall
+R10 net_delay
+R6 amf_stall
+R6 ausf_stall
+R6 net_delay
+R11-control amf_stall
+R11-control ausf_stall
+R11-control net_delay
+R11-loaded amf_stall
+R11-loaded ausf_stall
+R11-loaded net_delay
