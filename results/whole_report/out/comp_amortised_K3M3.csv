@@ -1,0 +1,2 @@
+mode,K,M,laws,build_once_s,exact_total_s,clarabel_total_s,ratio_clarabel_over_exact,Dsat_agree,machine,python,cvxpy,scipy
+amortised_Dsat,3,3,12,0.4,8.4,22.29,2.65,True,Linux-6.8.0-138-generic-aarch64-with-glibc2.35,3.10.12,1.7.5,1.15.3

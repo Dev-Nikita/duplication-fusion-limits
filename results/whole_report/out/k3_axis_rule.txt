@@ -1,0 +1,1 @@
+K=3 nine-axis rule vs exact lattice enumeration: 75922 (M,D,pair) cases, M<=3, D<=3M: 0 mismatches; normals=[(0, 0, 1), (0, 1, -1), (0, 1, 0), (1, -1, -1), (1, -1, 0), (1, -1, 1), (1, 0, -1), (1, 0, 0), (1, 1, -1)]

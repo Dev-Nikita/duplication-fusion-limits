@@ -1,0 +1,1 @@
+Prop. 9: random laws 0-99 of 300, 564 law-cap cases: closed form vs common-kernel LP 0 mismatches, vs count-only minimax value (CLARABEL, tol 1e-6) 0 mismatches; D_sat^U > D_sat in 26 laws

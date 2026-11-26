@@ -1,0 +1,2 @@
+Proposition 5: 55 laws; violations beyond the bracket: 0; lower bound certified exactly in 42, upper bound certified exactly in 32; saturated (delta = 0) cases: 28; max bracket width 1.4e-04
+Proposition 3 (marginal counts): 40 laws; violations: 0; max bracket width 7.5e-09; R_B(H) <= upper and lower <= R_B(P) hold exactly in 40

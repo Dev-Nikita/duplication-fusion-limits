@@ -1,0 +1,4 @@
+mode,K,M,law,D,exact_s,clarabel_s,ratio_clarabel_over_exact,abs_diff,machine,python,cvxpy,scipy
+cold_single_solve,3,3,0,1,0.304,0.425,1.4,1.2969695595277386e-09,Linux-6.8.0-138-generic-aarch64-with-glibc2.35,3.10.12,1.7.5,1.15.3
+cold_single_solve,3,3,1,1,0.315,0.213,0.68,4.214845861216787e-09,Linux-6.8.0-138-generic-aarch64-with-glibc2.35,3.10.12,1.7.5,1.15.3
+cold_single_solve,3,3,2,1,0.534,0.249,0.47,9.116251364904571e-10,Linux-6.8.0-138-generic-aarch64-with-glibc2.35,3.10.12,1.7.5,1.15.3

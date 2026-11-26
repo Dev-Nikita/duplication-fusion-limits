@@ -1,0 +1,1 @@
+K=1: exact D_sat (isotonic, min D with V_D=V_inf) vs Prop.4 ceil(rho)-1: 300 random laws (M<=10), 0 mismatches
