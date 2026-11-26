@@ -1,5 +1,7 @@
 # Evidence fusion under unknown report duplication — code, protocols and derived results
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24561927.svg)](https://doi.org/10.5281/zenodo.24561927)
+
 Code, testbed definitions, frozen experiment protocols and derived results for a study of fusion of counted reports
 when reports may be duplicated by an unknown mechanism (Nikita Tarasov and Roman Zinko, Lviv Polytechnic National
 University).
@@ -35,4 +37,5 @@ available on request) and external datasets (Flight, Li et al. 2012; RCAEval, Ze
 `REPRODUCE.md` explains how to download.
 
 ## Licence and citation
-Code: MIT (`LICENSE`). Derived data in `results/`: CC BY 4.0. Citation metadata: `CITATION.cff`.
+Code: MIT (`LICENSE`). Derived data in `results/`: CC BY 4.0. Third-party data and software: `DATA_LICENSES.md`.
+Archived on Zenodo: https://doi.org/10.5281/zenodo.24561927. Citation metadata: `CITATION.cff`.
