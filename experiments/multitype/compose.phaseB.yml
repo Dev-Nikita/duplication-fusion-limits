@@ -1,0 +1,32 @@
+# Phase B (broker transport). Isolated Compose project: internal network, no published ports, memory-only JetStream.
+name: paef_mt_b
+services:
+  nats:
+    image: nats:2.10.22-alpine
+    command: ["-js"]
+    networks: [mt]
+    mem_limit: 512m
+    cpus: 1.0
+  replayer:
+    image: paef-mt:local
+    build: .
+    command: [replayer]
+    depends_on: [nats]
+    networks: [mt]
+    mem_limit: 512m
+    cpus: 1.0
+    environment:
+      NATS_URL: nats://nats:4222
+      REPORTS: /in/reports.jsonl
+      OUT: /out
+      REGIMES: S0,S1,S2,S3,S4,S5,S6
+      SEED: '${SEED}'
+      ACK_WAIT_MS: "250"
+      PUB_RATE: "100"
+      LOAD_REF: "20"
+    volumes:
+      - '${RUN_DIR}/reports.jsonl:/in/reports.jsonl:ro'
+      - '${RUN_DIR}/phaseB:/out'
+networks:
+  mt:
+    internal: true

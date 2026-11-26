@@ -1,0 +1,649 @@
+dataset,task,held_block,channel,robust_risk_D2,bits,needs
+R10,amf_stall,13,coordinate presence,0.045454545454545456,2,none
+R10,amf_stall,13,pattern presence,0.045454545454545456,3,none
+R10,amf_stall,13,marginal counts,0.025,12,none
+R10,amf_stall,13,pattern counts,0.025,18,pattern kept per message
+R10,amf_stall,13,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,amf_stall,13,unique-source patterns (lineage),0.0,15,source identity per message
+R10,amf_stall,14,coordinate presence,0.045454545454545456,2,none
+R10,amf_stall,14,pattern presence,0.045454545454545456,3,none
+R10,amf_stall,14,marginal counts,0.0,12,none
+R10,amf_stall,14,pattern counts,0.0,18,pattern kept per message
+R10,amf_stall,14,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,amf_stall,14,unique-source patterns (lineage),0.0,15,source identity per message
+R10,amf_stall,15,coordinate presence,0.08333333333333333,2,none
+R10,amf_stall,15,pattern presence,0.08333333333333333,3,none
+R10,amf_stall,15,marginal counts,0.045454545454545456,12,none
+R10,amf_stall,15,pattern counts,0.045454545454545456,18,pattern kept per message
+R10,amf_stall,15,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,amf_stall,15,unique-source patterns (lineage),0.0,15,source identity per message
+R10,amf_stall,16,coordinate presence,0.2222222222222222,2,none
+R10,amf_stall,16,pattern presence,0.2222222222222222,3,none
+R10,amf_stall,16,marginal counts,0.14285714285714285,12,none
+R10,amf_stall,16,pattern counts,0.14285714285714285,18,pattern kept per message
+R10,amf_stall,16,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,amf_stall,16,unique-source patterns (lineage),0.0,15,source identity per message
+R10,amf_stall,17,coordinate presence,0.1875,2,none
+R10,amf_stall,17,pattern presence,0.1875,3,none
+R10,amf_stall,17,marginal counts,0.08333333333333333,12,none
+R10,amf_stall,17,pattern counts,0.08333333333333333,18,pattern kept per message
+R10,amf_stall,17,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,amf_stall,17,unique-source patterns (lineage),0.0,15,source identity per message
+R10,amf_stall,18,coordinate presence,0.1875,2,none
+R10,amf_stall,18,pattern presence,0.1875,3,none
+R10,amf_stall,18,marginal counts,0.08333333333333333,12,none
+R10,amf_stall,18,pattern counts,0.08333333333333333,18,pattern kept per message
+R10,amf_stall,18,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,amf_stall,18,unique-source patterns (lineage),0.0,15,source identity per message
+R10,ausf_stall,13,coordinate presence,0.045454545454545456,2,none
+R10,ausf_stall,13,pattern presence,0.045454545454545456,3,none
+R10,ausf_stall,13,marginal counts,0.03333333333333333,12,none
+R10,ausf_stall,13,pattern counts,0.03333333333333333,18,pattern kept per message
+R10,ausf_stall,13,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,ausf_stall,13,unique-source patterns (lineage),0.0,15,source identity per message
+R10,ausf_stall,14,coordinate presence,0.045454545454545456,2,none
+R10,ausf_stall,14,pattern presence,0.045454545454545456,3,none
+R10,ausf_stall,14,marginal counts,0.0,12,none
+R10,ausf_stall,14,pattern counts,0.0,18,pattern kept per message
+R10,ausf_stall,14,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,ausf_stall,14,unique-source patterns (lineage),0.0,15,source identity per message
+R10,ausf_stall,15,coordinate presence,0.08333333333333333,2,none
+R10,ausf_stall,15,pattern presence,0.08333333333333333,3,none
+R10,ausf_stall,15,marginal counts,0.045454545454545456,12,none
+R10,ausf_stall,15,pattern counts,0.045454545454545456,18,pattern kept per message
+R10,ausf_stall,15,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,ausf_stall,15,unique-source patterns (lineage),0.0,15,source identity per message
+R10,ausf_stall,16,coordinate presence,0.2222222222222222,2,none
+R10,ausf_stall,16,pattern presence,0.2222222222222222,3,none
+R10,ausf_stall,16,marginal counts,0.14285714285714285,12,none
+R10,ausf_stall,16,pattern counts,0.14285714285714285,18,pattern kept per message
+R10,ausf_stall,16,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,ausf_stall,16,unique-source patterns (lineage),0.0,15,source identity per message
+R10,ausf_stall,17,coordinate presence,0.1875,2,none
+R10,ausf_stall,17,pattern presence,0.1875,3,none
+R10,ausf_stall,17,marginal counts,0.08333333333333333,12,none
+R10,ausf_stall,17,pattern counts,0.08333333333333333,18,pattern kept per message
+R10,ausf_stall,17,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,ausf_stall,17,unique-source patterns (lineage),0.0,15,source identity per message
+R10,ausf_stall,18,coordinate presence,0.1875,2,none
+R10,ausf_stall,18,pattern presence,0.1875,3,none
+R10,ausf_stall,18,marginal counts,0.08333333333333333,12,none
+R10,ausf_stall,18,pattern counts,0.08333333333333333,18,pattern kept per message
+R10,ausf_stall,18,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,ausf_stall,18,unique-source patterns (lineage),0.0,15,source identity per message
+R10,net_delay,13,coordinate presence,0.12626262626262627,2,none
+R10,net_delay,13,pattern presence,0.12626262626262627,3,none
+R10,net_delay,13,marginal counts,0.10681818181818181,12,none
+R10,net_delay,13,pattern counts,0.10681818181818181,18,pattern kept per message
+R10,net_delay,13,unique marginal counts (negatives),0.08181818181818182,10,complete negative reports from a known population
+R10,net_delay,13,unique-source patterns (lineage),0.08181818181818182,15,source identity per message
+R10,net_delay,14,coordinate presence,0.045454545454545456,2,none
+R10,net_delay,14,pattern presence,0.045454545454545456,3,none
+R10,net_delay,14,marginal counts,0.025,12,none
+R10,net_delay,14,pattern counts,0.025,18,pattern kept per message
+R10,net_delay,14,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,net_delay,14,unique-source patterns (lineage),0.0,15,source identity per message
+R10,net_delay,15,coordinate presence,0.08333333333333333,2,none
+R10,net_delay,15,pattern presence,0.08333333333333333,3,none
+R10,net_delay,15,marginal counts,0.045454545454545456,12,none
+R10,net_delay,15,pattern counts,0.045454545454545456,18,pattern kept per message
+R10,net_delay,15,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,net_delay,15,unique-source patterns (lineage),0.0,15,source identity per message
+R10,net_delay,16,coordinate presence,0.2222222222222222,2,none
+R10,net_delay,16,pattern presence,0.2222222222222222,3,none
+R10,net_delay,16,marginal counts,0.18333333333333332,12,none
+R10,net_delay,16,pattern counts,0.18333333333333332,18,pattern kept per message
+R10,net_delay,16,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,net_delay,16,unique-source patterns (lineage),0.0,15,source identity per message
+R10,net_delay,17,coordinate presence,0.1875,2,none
+R10,net_delay,17,pattern presence,0.1875,3,none
+R10,net_delay,17,marginal counts,0.11527777777777778,12,none
+R10,net_delay,17,pattern counts,0.11527777777777778,18,pattern kept per message
+R10,net_delay,17,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,net_delay,17,unique-source patterns (lineage),0.0,15,source identity per message
+R10,net_delay,18,coordinate presence,0.1875,2,none
+R10,net_delay,18,pattern presence,0.1875,3,none
+R10,net_delay,18,marginal counts,0.11333333333333333,12,none
+R10,net_delay,18,pattern counts,0.11333333333333333,18,pattern kept per message
+R10,net_delay,18,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R10,net_delay,18,unique-source patterns (lineage),0.0,15,source identity per message
+R6,amf_stall,4,coordinate presence,0.12626262626262627,2,none
+R6,amf_stall,4,pattern presence,0.12626262626262627,3,none
+R6,amf_stall,4,marginal counts,0.10681818181818181,12,none
+R6,amf_stall,4,pattern counts,0.10681818181818181,18,pattern kept per message
+R6,amf_stall,4,unique marginal counts (negatives),0.08181818181818182,10,complete negative reports from a known population
+R6,amf_stall,4,unique-source patterns (lineage),0.08181818181818182,15,source identity per message
+R6,amf_stall,5,coordinate presence,0.18686868686868688,2,none
+R6,amf_stall,5,pattern presence,0.18686868686868688,3,none
+R6,amf_stall,5,marginal counts,0.11527777777777778,12,none
+R6,amf_stall,5,pattern counts,0.11527777777777778,18,pattern kept per message
+R6,amf_stall,5,unique marginal counts (negatives),0.07777777777777778,10,complete negative reports from a known population
+R6,amf_stall,5,unique-source patterns (lineage),0.07777777777777778,15,source identity per message
+R6,amf_stall,6,coordinate presence,0.045454545454545456,2,none
+R6,amf_stall,6,pattern presence,0.045454545454545456,3,none
+R6,amf_stall,6,marginal counts,0.0,12,none
+R6,amf_stall,6,pattern counts,0.0,18,pattern kept per message
+R6,amf_stall,6,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R6,amf_stall,6,unique-source patterns (lineage),0.0,15,source identity per message
+R6,amf_stall,10,coordinate presence,0.14285714285714285,2,none
+R6,amf_stall,10,pattern presence,0.14285714285714285,3,none
+R6,amf_stall,10,marginal counts,0.08333333333333333,12,none
+R6,amf_stall,10,pattern counts,0.08333333333333333,18,pattern kept per message
+R6,amf_stall,10,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R6,amf_stall,10,unique-source patterns (lineage),0.0,15,source identity per message
+R6,amf_stall,11,coordinate presence,0.11538461538461539,2,none
+R6,amf_stall,11,pattern presence,0.11538461538461539,3,none
+R6,amf_stall,11,marginal counts,0.11538461538461539,12,none
+R6,amf_stall,11,pattern counts,0.11538461538461539,18,pattern kept per message
+R6,amf_stall,11,unique marginal counts (negatives),0.06944444444444445,10,complete negative reports from a known population
+R6,amf_stall,11,unique-source patterns (lineage),0.06944444444444445,15,source identity per message
+R6,amf_stall,12,coordinate presence,0.11538461538461539,2,none
+R6,amf_stall,12,pattern presence,0.11538461538461539,3,none
+R6,amf_stall,12,marginal counts,0.11538461538461539,12,none
+R6,amf_stall,12,pattern counts,0.11538461538461539,18,pattern kept per message
+R6,amf_stall,12,unique marginal counts (negatives),0.025,10,complete negative reports from a known population
+R6,amf_stall,12,unique-source patterns (lineage),0.025,15,source identity per message
+R6,ausf_stall,4,coordinate presence,0.12626262626262627,2,none
+R6,ausf_stall,4,pattern presence,0.12626262626262627,3,none
+R6,ausf_stall,4,marginal counts,0.10681818181818181,12,none
+R6,ausf_stall,4,pattern counts,0.10681818181818181,18,pattern kept per message
+R6,ausf_stall,4,unique marginal counts (negatives),0.08181818181818182,10,complete negative reports from a known population
+R6,ausf_stall,4,unique-source patterns (lineage),0.08181818181818182,15,source identity per message
+R6,ausf_stall,5,coordinate presence,0.15625,2,none
+R6,ausf_stall,5,pattern presence,0.15625,3,none
+R6,ausf_stall,5,marginal counts,0.11041666666666666,12,none
+R6,ausf_stall,5,pattern counts,0.11041666666666666,18,pattern kept per message
+R6,ausf_stall,5,unique marginal counts (negatives),0.04375,10,complete negative reports from a known population
+R6,ausf_stall,5,unique-source patterns (lineage),0.04375,15,source identity per message
+R6,ausf_stall,6,coordinate presence,0.15625,2,none
+R6,ausf_stall,6,pattern presence,0.15625,3,none
+R6,ausf_stall,6,marginal counts,0.1125,12,none
+R6,ausf_stall,6,pattern counts,0.1125,18,pattern kept per message
+R6,ausf_stall,6,unique marginal counts (negatives),0.1125,10,complete negative reports from a known population
+R6,ausf_stall,6,unique-source patterns (lineage),0.1125,15,source identity per message
+R6,ausf_stall,10,coordinate presence,0.14285714285714285,2,none
+R6,ausf_stall,10,pattern presence,0.14285714285714285,3,none
+R6,ausf_stall,10,marginal counts,0.08333333333333333,12,none
+R6,ausf_stall,10,pattern counts,0.08333333333333333,18,pattern kept per message
+R6,ausf_stall,10,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R6,ausf_stall,10,unique-source patterns (lineage),0.0,15,source identity per message
+R6,ausf_stall,11,coordinate presence,0.11538461538461539,2,none
+R6,ausf_stall,11,pattern presence,0.11538461538461539,3,none
+R6,ausf_stall,11,marginal counts,0.11538461538461539,12,none
+R6,ausf_stall,11,pattern counts,0.11538461538461539,18,pattern kept per message
+R6,ausf_stall,11,unique marginal counts (negatives),0.044444444444444446,10,complete negative reports from a known population
+R6,ausf_stall,11,unique-source patterns (lineage),0.044444444444444446,15,source identity per message
+R6,ausf_stall,12,coordinate presence,0.11538461538461539,2,none
+R6,ausf_stall,12,pattern presence,0.11538461538461539,3,none
+R6,ausf_stall,12,marginal counts,0.11538461538461539,12,none
+R6,ausf_stall,12,pattern counts,0.11538461538461539,18,pattern kept per message
+R6,ausf_stall,12,unique marginal counts (negatives),0.025,10,complete negative reports from a known population
+R6,ausf_stall,12,unique-source patterns (lineage),0.025,15,source identity per message
+R6,net_delay,4,coordinate presence,0.22,2,none
+R6,net_delay,4,pattern presence,0.22,3,none
+R6,net_delay,4,marginal counts,0.22,12,none
+R6,net_delay,4,pattern counts,0.22,18,pattern kept per message
+R6,net_delay,4,unique marginal counts (negatives),0.205,10,complete negative reports from a known population
+R6,net_delay,4,unique-source patterns (lineage),0.205,15,source identity per message
+R6,net_delay,5,coordinate presence,0.22727272727272727,2,none
+R6,net_delay,5,pattern presence,0.22727272727272727,3,none
+R6,net_delay,5,marginal counts,0.22727272727272727,12,none
+R6,net_delay,5,pattern counts,0.22727272727272727,18,pattern kept per message
+R6,net_delay,5,unique marginal counts (negatives),0.17727272727272728,10,complete negative reports from a known population
+R6,net_delay,5,unique-source patterns (lineage),0.17727272727272728,15,source identity per message
+R6,net_delay,6,coordinate presence,0.22,2,none
+R6,net_delay,6,pattern presence,0.22,3,none
+R6,net_delay,6,marginal counts,0.21333333333333335,12,none
+R6,net_delay,6,pattern counts,0.21333333333333335,18,pattern kept per message
+R6,net_delay,6,unique marginal counts (negatives),0.18,10,complete negative reports from a known population
+R6,net_delay,6,unique-source patterns (lineage),0.18,15,source identity per message
+R6,net_delay,10,coordinate presence,0.1813186813186813,2,none
+R6,net_delay,10,pattern presence,0.1813186813186813,3,none
+R6,net_delay,10,marginal counts,0.17063492063492064,12,none
+R6,net_delay,10,pattern counts,0.17063492063492064,18,pattern kept per message
+R6,net_delay,10,unique marginal counts (negatives),0.04285714285714286,10,complete negative reports from a known population
+R6,net_delay,10,unique-source patterns (lineage),0.04285714285714286,15,source identity per message
+R6,net_delay,11,coordinate presence,0.11538461538461539,2,none
+R6,net_delay,11,pattern presence,0.11538461538461539,3,none
+R6,net_delay,11,marginal counts,0.11538461538461539,12,none
+R6,net_delay,11,pattern counts,0.11538461538461539,18,pattern kept per message
+R6,net_delay,11,unique marginal counts (negatives),0.04,10,complete negative reports from a known population
+R6,net_delay,11,unique-source patterns (lineage),0.04,15,source identity per message
+R6,net_delay,12,coordinate presence,0.11538461538461539,2,none
+R6,net_delay,12,pattern presence,0.11538461538461539,3,none
+R6,net_delay,12,marginal counts,0.1125,12,none
+R6,net_delay,12,pattern counts,0.1125,18,pattern kept per message
+R6,net_delay,12,unique marginal counts (negatives),0.03333333333333333,10,complete negative reports from a known population
+R6,net_delay,12,unique-source patterns (lineage),0.03333333333333333,15,source identity per message
+R11-control,amf_stall,21,coordinate presence,0.2222222222222222,2,none
+R11-control,amf_stall,21,pattern presence,0.2222222222222222,3,none
+R11-control,amf_stall,21,marginal counts,0.0,12,none
+R11-control,amf_stall,21,pattern counts,0.0,18,pattern kept per message
+R11-control,amf_stall,21,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,amf_stall,21,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,amf_stall,22,coordinate presence,0.2222222222222222,2,none
+R11-control,amf_stall,22,pattern presence,0.2222222222222222,3,none
+R11-control,amf_stall,22,marginal counts,0.025,12,none
+R11-control,amf_stall,22,pattern counts,0.025,18,pattern kept per message
+R11-control,amf_stall,22,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,amf_stall,22,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,amf_stall,23,coordinate presence,0.2222222222222222,2,none
+R11-control,amf_stall,23,pattern presence,0.2222222222222222,3,none
+R11-control,amf_stall,23,marginal counts,0.045454545454545456,12,none
+R11-control,amf_stall,23,pattern counts,0.045454545454545456,18,pattern kept per message
+R11-control,amf_stall,23,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,amf_stall,23,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,amf_stall,24,coordinate presence,0.25,2,none
+R11-control,amf_stall,24,pattern presence,0.25,3,none
+R11-control,amf_stall,24,marginal counts,0.0,12,none
+R11-control,amf_stall,24,pattern counts,0.0,18,pattern kept per message
+R11-control,amf_stall,24,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,amf_stall,24,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,amf_stall,25,coordinate presence,0.2222222222222222,2,none
+R11-control,amf_stall,25,pattern presence,0.2222222222222222,3,none
+R11-control,amf_stall,25,marginal counts,0.0,12,none
+R11-control,amf_stall,25,pattern counts,0.0,18,pattern kept per message
+R11-control,amf_stall,25,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,amf_stall,25,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,amf_stall,26,coordinate presence,0.1875,2,none
+R11-control,amf_stall,26,pattern presence,0.1875,3,none
+R11-control,amf_stall,26,marginal counts,0.045454545454545456,12,none
+R11-control,amf_stall,26,pattern counts,0.045454545454545456,18,pattern kept per message
+R11-control,amf_stall,26,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,amf_stall,26,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,amf_stall,27,coordinate presence,0.20588235294117646,2,none
+R11-control,amf_stall,27,pattern presence,0.20588235294117646,3,none
+R11-control,amf_stall,27,marginal counts,0.0,12,none
+R11-control,amf_stall,27,pattern counts,0.0,18,pattern kept per message
+R11-control,amf_stall,27,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,amf_stall,27,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,amf_stall,28,coordinate presence,0.1875,2,none
+R11-control,amf_stall,28,pattern presence,0.1875,3,none
+R11-control,amf_stall,28,marginal counts,0.08333333333333333,12,none
+R11-control,amf_stall,28,pattern counts,0.08333333333333333,18,pattern kept per message
+R11-control,amf_stall,28,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,amf_stall,28,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,amf_stall,29,coordinate presence,0.23684210526315788,2,none
+R11-control,amf_stall,29,pattern presence,0.23684210526315788,3,none
+R11-control,amf_stall,29,marginal counts,0.045454545454545456,12,none
+R11-control,amf_stall,29,pattern counts,0.045454545454545456,18,pattern kept per message
+R11-control,amf_stall,29,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,amf_stall,29,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,amf_stall,30,coordinate presence,0.2222222222222222,2,none
+R11-control,amf_stall,30,pattern presence,0.2222222222222222,3,none
+R11-control,amf_stall,30,marginal counts,0.025,12,none
+R11-control,amf_stall,30,pattern counts,0.025,18,pattern kept per message
+R11-control,amf_stall,30,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,amf_stall,30,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,amf_stall,31,coordinate presence,0.2222222222222222,2,none
+R11-control,amf_stall,31,pattern presence,0.2222222222222222,3,none
+R11-control,amf_stall,31,marginal counts,0.0,12,none
+R11-control,amf_stall,31,pattern counts,0.0,18,pattern kept per message
+R11-control,amf_stall,31,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,amf_stall,31,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,amf_stall,32,coordinate presence,0.2222222222222222,2,none
+R11-control,amf_stall,32,pattern presence,0.2222222222222222,3,none
+R11-control,amf_stall,32,marginal counts,0.08333333333333333,12,none
+R11-control,amf_stall,32,pattern counts,0.08333333333333333,18,pattern kept per message
+R11-control,amf_stall,32,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,amf_stall,32,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,ausf_stall,21,coordinate presence,0.2222222222222222,2,none
+R11-control,ausf_stall,21,pattern presence,0.2222222222222222,3,none
+R11-control,ausf_stall,21,marginal counts,0.025,12,none
+R11-control,ausf_stall,21,pattern counts,0.025,18,pattern kept per message
+R11-control,ausf_stall,21,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,ausf_stall,21,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,ausf_stall,22,coordinate presence,0.2222222222222222,2,none
+R11-control,ausf_stall,22,pattern presence,0.2222222222222222,3,none
+R11-control,ausf_stall,22,marginal counts,0.0375,12,none
+R11-control,ausf_stall,22,pattern counts,0.0375,18,pattern kept per message
+R11-control,ausf_stall,22,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,ausf_stall,22,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,ausf_stall,23,coordinate presence,0.2222222222222222,2,none
+R11-control,ausf_stall,23,pattern presence,0.2222222222222222,3,none
+R11-control,ausf_stall,23,marginal counts,0.07,12,none
+R11-control,ausf_stall,23,pattern counts,0.07,18,pattern kept per message
+R11-control,ausf_stall,23,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,ausf_stall,23,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,ausf_stall,24,coordinate presence,0.25,2,none
+R11-control,ausf_stall,24,pattern presence,0.25,3,none
+R11-control,ausf_stall,24,marginal counts,0.0,12,none
+R11-control,ausf_stall,24,pattern counts,0.0,18,pattern kept per message
+R11-control,ausf_stall,24,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,ausf_stall,24,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,ausf_stall,25,coordinate presence,0.2222222222222222,2,none
+R11-control,ausf_stall,25,pattern presence,0.2222222222222222,3,none
+R11-control,ausf_stall,25,marginal counts,0.0,12,none
+R11-control,ausf_stall,25,pattern counts,0.0,18,pattern kept per message
+R11-control,ausf_stall,25,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,ausf_stall,25,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,ausf_stall,26,coordinate presence,0.1875,2,none
+R11-control,ausf_stall,26,pattern presence,0.1875,3,none
+R11-control,ausf_stall,26,marginal counts,0.045454545454545456,12,none
+R11-control,ausf_stall,26,pattern counts,0.045454545454545456,18,pattern kept per message
+R11-control,ausf_stall,26,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,ausf_stall,26,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,ausf_stall,27,coordinate presence,0.20588235294117646,2,none
+R11-control,ausf_stall,27,pattern presence,0.20588235294117646,3,none
+R11-control,ausf_stall,27,marginal counts,0.05,12,none
+R11-control,ausf_stall,27,pattern counts,0.05,18,pattern kept per message
+R11-control,ausf_stall,27,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,ausf_stall,27,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,ausf_stall,28,coordinate presence,0.1875,2,none
+R11-control,ausf_stall,28,pattern presence,0.1875,3,none
+R11-control,ausf_stall,28,marginal counts,0.08333333333333333,12,none
+R11-control,ausf_stall,28,pattern counts,0.08333333333333333,18,pattern kept per message
+R11-control,ausf_stall,28,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,ausf_stall,28,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,ausf_stall,29,coordinate presence,0.23684210526315788,2,none
+R11-control,ausf_stall,29,pattern presence,0.23684210526315788,3,none
+R11-control,ausf_stall,29,marginal counts,0.045454545454545456,12,none
+R11-control,ausf_stall,29,pattern counts,0.045454545454545456,18,pattern kept per message
+R11-control,ausf_stall,29,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,ausf_stall,29,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,ausf_stall,30,coordinate presence,0.2222222222222222,2,none
+R11-control,ausf_stall,30,pattern presence,0.2222222222222222,3,none
+R11-control,ausf_stall,30,marginal counts,0.025,12,none
+R11-control,ausf_stall,30,pattern counts,0.025,18,pattern kept per message
+R11-control,ausf_stall,30,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,ausf_stall,30,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,ausf_stall,31,coordinate presence,0.2222222222222222,2,none
+R11-control,ausf_stall,31,pattern presence,0.2222222222222222,3,none
+R11-control,ausf_stall,31,marginal counts,0.0,12,none
+R11-control,ausf_stall,31,pattern counts,0.0,18,pattern kept per message
+R11-control,ausf_stall,31,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,ausf_stall,31,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,ausf_stall,32,coordinate presence,0.2222222222222222,2,none
+R11-control,ausf_stall,32,pattern presence,0.2222222222222222,3,none
+R11-control,ausf_stall,32,marginal counts,0.08333333333333333,12,none
+R11-control,ausf_stall,32,pattern counts,0.08333333333333333,18,pattern kept per message
+R11-control,ausf_stall,32,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,ausf_stall,32,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,net_delay,21,coordinate presence,0.2222222222222222,2,none
+R11-control,net_delay,21,pattern presence,0.2222222222222222,3,none
+R11-control,net_delay,21,marginal counts,0.10909090909090909,12,none
+R11-control,net_delay,21,pattern counts,0.10909090909090909,18,pattern kept per message
+R11-control,net_delay,21,unique marginal counts (negatives),0.06666666666666667,10,complete negative reports from a known population
+R11-control,net_delay,21,unique-source patterns (lineage),0.06666666666666667,15,source identity per message
+R11-control,net_delay,22,coordinate presence,0.2222222222222222,2,none
+R11-control,net_delay,22,pattern presence,0.2222222222222222,3,none
+R11-control,net_delay,22,marginal counts,0.025,12,none
+R11-control,net_delay,22,pattern counts,0.025,18,pattern kept per message
+R11-control,net_delay,22,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,net_delay,22,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,net_delay,23,coordinate presence,0.24509803921568626,2,none
+R11-control,net_delay,23,pattern presence,0.24509803921568626,3,none
+R11-control,net_delay,23,marginal counts,0.14375,12,none
+R11-control,net_delay,23,pattern counts,0.14375,18,pattern kept per message
+R11-control,net_delay,23,unique marginal counts (negatives),0.058333333333333334,10,complete negative reports from a known population
+R11-control,net_delay,23,unique-source patterns (lineage),0.058333333333333334,15,source identity per message
+R11-control,net_delay,24,coordinate presence,0.25,2,none
+R11-control,net_delay,24,pattern presence,0.25,3,none
+R11-control,net_delay,24,marginal counts,0.0,12,none
+R11-control,net_delay,24,pattern counts,0.0,18,pattern kept per message
+R11-control,net_delay,24,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,net_delay,24,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,net_delay,25,coordinate presence,0.2222222222222222,2,none
+R11-control,net_delay,25,pattern presence,0.2222222222222222,3,none
+R11-control,net_delay,25,marginal counts,0.085,12,none
+R11-control,net_delay,25,pattern counts,0.085,18,pattern kept per message
+R11-control,net_delay,25,unique marginal counts (negatives),0.03333333333333333,10,complete negative reports from a known population
+R11-control,net_delay,25,unique-source patterns (lineage),0.03333333333333333,15,source identity per message
+R11-control,net_delay,26,coordinate presence,0.1875,2,none
+R11-control,net_delay,26,pattern presence,0.1875,3,none
+R11-control,net_delay,26,marginal counts,0.045454545454545456,12,none
+R11-control,net_delay,26,pattern counts,0.045454545454545456,18,pattern kept per message
+R11-control,net_delay,26,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,net_delay,26,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,net_delay,27,coordinate presence,0.20588235294117646,2,none
+R11-control,net_delay,27,pattern presence,0.20588235294117646,3,none
+R11-control,net_delay,27,marginal counts,0.075,12,none
+R11-control,net_delay,27,pattern counts,0.075,18,pattern kept per message
+R11-control,net_delay,27,unique marginal counts (negatives),0.03333333333333333,10,complete negative reports from a known population
+R11-control,net_delay,27,unique-source patterns (lineage),0.03333333333333333,15,source identity per message
+R11-control,net_delay,28,coordinate presence,0.1875,2,none
+R11-control,net_delay,28,pattern presence,0.1875,3,none
+R11-control,net_delay,28,marginal counts,0.10681818181818181,12,none
+R11-control,net_delay,28,pattern counts,0.10681818181818181,18,pattern kept per message
+R11-control,net_delay,28,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,net_delay,28,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,net_delay,29,coordinate presence,0.23684210526315788,2,none
+R11-control,net_delay,29,pattern presence,0.23684210526315788,3,none
+R11-control,net_delay,29,marginal counts,0.045454545454545456,12,none
+R11-control,net_delay,29,pattern counts,0.045454545454545456,18,pattern kept per message
+R11-control,net_delay,29,unique marginal counts (negatives),0.025,10,complete negative reports from a known population
+R11-control,net_delay,29,unique-source patterns (lineage),0.025,15,source identity per message
+R11-control,net_delay,30,coordinate presence,0.2222222222222222,2,none
+R11-control,net_delay,30,pattern presence,0.2222222222222222,3,none
+R11-control,net_delay,30,marginal counts,0.03333333333333333,12,none
+R11-control,net_delay,30,pattern counts,0.03333333333333333,18,pattern kept per message
+R11-control,net_delay,30,unique marginal counts (negatives),0.025,10,complete negative reports from a known population
+R11-control,net_delay,30,unique-source patterns (lineage),0.025,15,source identity per message
+R11-control,net_delay,31,coordinate presence,0.2222222222222222,2,none
+R11-control,net_delay,31,pattern presence,0.2222222222222222,3,none
+R11-control,net_delay,31,marginal counts,0.06,12,none
+R11-control,net_delay,31,pattern counts,0.06,18,pattern kept per message
+R11-control,net_delay,31,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-control,net_delay,31,unique-source patterns (lineage),0.0,15,source identity per message
+R11-control,net_delay,32,coordinate presence,0.2222222222222222,2,none
+R11-control,net_delay,32,pattern presence,0.2222222222222222,3,none
+R11-control,net_delay,32,marginal counts,0.13,12,none
+R11-control,net_delay,32,pattern counts,0.13,18,pattern kept per message
+R11-control,net_delay,32,unique marginal counts (negatives),0.05,10,complete negative reports from a known population
+R11-control,net_delay,32,unique-source patterns (lineage),0.05,15,source identity per message
+R11-loaded,amf_stall,21,coordinate presence,0.0,2,none
+R11-loaded,amf_stall,21,pattern presence,0.0,3,none
+R11-loaded,amf_stall,21,marginal counts,0.0,12,none
+R11-loaded,amf_stall,21,pattern counts,0.0,18,pattern kept per message
+R11-loaded,amf_stall,21,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,amf_stall,21,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,amf_stall,22,coordinate presence,0.045454545454545456,2,none
+R11-loaded,amf_stall,22,pattern presence,0.045454545454545456,3,none
+R11-loaded,amf_stall,22,marginal counts,0.0,12,none
+R11-loaded,amf_stall,22,pattern counts,0.0,18,pattern kept per message
+R11-loaded,amf_stall,22,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,amf_stall,22,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,amf_stall,23,coordinate presence,0.045454545454545456,2,none
+R11-loaded,amf_stall,23,pattern presence,0.045454545454545456,3,none
+R11-loaded,amf_stall,23,marginal counts,0.0,12,none
+R11-loaded,amf_stall,23,pattern counts,0.0,18,pattern kept per message
+R11-loaded,amf_stall,23,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,amf_stall,23,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,amf_stall,24,coordinate presence,0.14285714285714285,2,none
+R11-loaded,amf_stall,24,pattern presence,0.14285714285714285,3,none
+R11-loaded,amf_stall,24,marginal counts,0.13777777777777778,12,none
+R11-loaded,amf_stall,24,pattern counts,0.13777777777777778,18,pattern kept per message
+R11-loaded,amf_stall,24,unique marginal counts (negatives),0.025,10,complete negative reports from a known population
+R11-loaded,amf_stall,24,unique-source patterns (lineage),0.025,15,source identity per message
+R11-loaded,amf_stall,25,coordinate presence,0.14285714285714285,2,none
+R11-loaded,amf_stall,25,pattern presence,0.14285714285714285,3,none
+R11-loaded,amf_stall,25,marginal counts,0.08333333333333333,12,none
+R11-loaded,amf_stall,25,pattern counts,0.08333333333333333,18,pattern kept per message
+R11-loaded,amf_stall,25,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,amf_stall,25,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,amf_stall,26,coordinate presence,0.09,2,none
+R11-loaded,amf_stall,26,pattern presence,0.09,3,none
+R11-loaded,amf_stall,26,marginal counts,0.045,12,none
+R11-loaded,amf_stall,26,pattern counts,0.045,18,pattern kept per message
+R11-loaded,amf_stall,26,unique marginal counts (negatives),0.045,10,complete negative reports from a known population
+R11-loaded,amf_stall,26,unique-source patterns (lineage),0.045,15,source identity per message
+R11-loaded,amf_stall,27,coordinate presence,0.0,2,none
+R11-loaded,amf_stall,27,pattern presence,0.0,3,none
+R11-loaded,amf_stall,27,marginal counts,0.0,12,none
+R11-loaded,amf_stall,27,pattern counts,0.0,18,pattern kept per message
+R11-loaded,amf_stall,27,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,amf_stall,27,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,amf_stall,28,coordinate presence,0.14285714285714285,2,none
+R11-loaded,amf_stall,28,pattern presence,0.14285714285714285,3,none
+R11-loaded,amf_stall,28,marginal counts,0.14285714285714285,12,none
+R11-loaded,amf_stall,28,pattern counts,0.14285714285714285,18,pattern kept per message
+R11-loaded,amf_stall,28,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,amf_stall,28,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,amf_stall,29,coordinate presence,0.08333333333333333,2,none
+R11-loaded,amf_stall,29,pattern presence,0.08333333333333333,3,none
+R11-loaded,amf_stall,29,marginal counts,0.04,12,none
+R11-loaded,amf_stall,29,pattern counts,0.04,18,pattern kept per message
+R11-loaded,amf_stall,29,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,amf_stall,29,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,amf_stall,30,coordinate presence,0.045454545454545456,2,none
+R11-loaded,amf_stall,30,pattern presence,0.045454545454545456,3,none
+R11-loaded,amf_stall,30,marginal counts,0.025,12,none
+R11-loaded,amf_stall,30,pattern counts,0.025,18,pattern kept per message
+R11-loaded,amf_stall,30,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,amf_stall,30,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,amf_stall,31,coordinate presence,0.20588235294117646,2,none
+R11-loaded,amf_stall,31,pattern presence,0.20588235294117646,3,none
+R11-loaded,amf_stall,31,marginal counts,0.14285714285714285,12,none
+R11-loaded,amf_stall,31,pattern counts,0.14285714285714285,18,pattern kept per message
+R11-loaded,amf_stall,31,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,amf_stall,31,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,amf_stall,32,coordinate presence,0.1875,2,none
+R11-loaded,amf_stall,32,pattern presence,0.1875,3,none
+R11-loaded,amf_stall,32,marginal counts,0.16666666666666666,12,none
+R11-loaded,amf_stall,32,pattern counts,0.16666666666666666,18,pattern kept per message
+R11-loaded,amf_stall,32,unique marginal counts (negatives),0.07,10,complete negative reports from a known population
+R11-loaded,amf_stall,32,unique-source patterns (lineage),0.07,15,source identity per message
+R11-loaded,ausf_stall,21,coordinate presence,0.0,2,none
+R11-loaded,ausf_stall,21,pattern presence,0.0,3,none
+R11-loaded,ausf_stall,21,marginal counts,0.0,12,none
+R11-loaded,ausf_stall,21,pattern counts,0.0,18,pattern kept per message
+R11-loaded,ausf_stall,21,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,ausf_stall,21,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,ausf_stall,22,coordinate presence,0.045454545454545456,2,none
+R11-loaded,ausf_stall,22,pattern presence,0.045454545454545456,3,none
+R11-loaded,ausf_stall,22,marginal counts,0.0,12,none
+R11-loaded,ausf_stall,22,pattern counts,0.0,18,pattern kept per message
+R11-loaded,ausf_stall,22,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,ausf_stall,22,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,ausf_stall,23,coordinate presence,0.045454545454545456,2,none
+R11-loaded,ausf_stall,23,pattern presence,0.045454545454545456,3,none
+R11-loaded,ausf_stall,23,marginal counts,0.0,12,none
+R11-loaded,ausf_stall,23,pattern counts,0.0,18,pattern kept per message
+R11-loaded,ausf_stall,23,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,ausf_stall,23,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,ausf_stall,24,coordinate presence,0.14285714285714285,2,none
+R11-loaded,ausf_stall,24,pattern presence,0.14285714285714285,3,none
+R11-loaded,ausf_stall,24,marginal counts,0.11538461538461539,12,none
+R11-loaded,ausf_stall,24,pattern counts,0.11538461538461539,18,pattern kept per message
+R11-loaded,ausf_stall,24,unique marginal counts (negatives),0.05,10,complete negative reports from a known population
+R11-loaded,ausf_stall,24,unique-source patterns (lineage),0.05,15,source identity per message
+R11-loaded,ausf_stall,25,coordinate presence,0.14285714285714285,2,none
+R11-loaded,ausf_stall,25,pattern presence,0.14285714285714285,3,none
+R11-loaded,ausf_stall,25,marginal counts,0.08333333333333333,12,none
+R11-loaded,ausf_stall,25,pattern counts,0.08333333333333333,18,pattern kept per message
+R11-loaded,ausf_stall,25,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,ausf_stall,25,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,ausf_stall,26,coordinate presence,0.045454545454545456,2,none
+R11-loaded,ausf_stall,26,pattern presence,0.045454545454545456,3,none
+R11-loaded,ausf_stall,26,marginal counts,0.025,12,none
+R11-loaded,ausf_stall,26,pattern counts,0.025,18,pattern kept per message
+R11-loaded,ausf_stall,26,unique marginal counts (negatives),0.025,10,complete negative reports from a known population
+R11-loaded,ausf_stall,26,unique-source patterns (lineage),0.025,15,source identity per message
+R11-loaded,ausf_stall,27,coordinate presence,0.0,2,none
+R11-loaded,ausf_stall,27,pattern presence,0.0,3,none
+R11-loaded,ausf_stall,27,marginal counts,0.0,12,none
+R11-loaded,ausf_stall,27,pattern counts,0.0,18,pattern kept per message
+R11-loaded,ausf_stall,27,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,ausf_stall,27,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,ausf_stall,28,coordinate presence,0.14285714285714285,2,none
+R11-loaded,ausf_stall,28,pattern presence,0.14285714285714285,3,none
+R11-loaded,ausf_stall,28,marginal counts,0.14242424242424243,12,none
+R11-loaded,ausf_stall,28,pattern counts,0.14242424242424243,18,pattern kept per message
+R11-loaded,ausf_stall,28,unique marginal counts (negatives),0.05,10,complete negative reports from a known population
+R11-loaded,ausf_stall,28,unique-source patterns (lineage),0.05,15,source identity per message
+R11-loaded,ausf_stall,29,coordinate presence,0.08333333333333333,2,none
+R11-loaded,ausf_stall,29,pattern presence,0.08333333333333333,3,none
+R11-loaded,ausf_stall,29,marginal counts,0.03333333333333333,12,none
+R11-loaded,ausf_stall,29,pattern counts,0.03333333333333333,18,pattern kept per message
+R11-loaded,ausf_stall,29,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,ausf_stall,29,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,ausf_stall,30,coordinate presence,0.045454545454545456,2,none
+R11-loaded,ausf_stall,30,pattern presence,0.045454545454545456,3,none
+R11-loaded,ausf_stall,30,marginal counts,0.04,12,none
+R11-loaded,ausf_stall,30,pattern counts,0.04,18,pattern kept per message
+R11-loaded,ausf_stall,30,unique marginal counts (negatives),0.0,10,complete negative reports from a known population
+R11-loaded,ausf_stall,30,unique-source patterns (lineage),0.0,15,source identity per message
+R11-loaded,ausf_stall,31,coordinate presence,0.20588235294117646,2,none
+R11-loaded,ausf_stall,31,pattern presence,0.20588235294117646,3,none
+R11-loaded,ausf_stall,31,marginal counts,0.16666666666666666,12,none
+R11-loaded,ausf_stall,31,pattern counts,0.16666666666666666,18,pattern kept per message
+R11-loaded,ausf_stall,31,unique marginal counts (negatives),0.05,10,complete negative reports from a known population
+R11-loaded,ausf_stall,31,unique-source patterns (lineage),0.05,15,source identity per message
+R11-loaded,ausf_stall,32,coordinate presence,0.1875,2,none
+R11-loaded,ausf_stall,32,pattern presence,0.1875,3,none
+R11-loaded,ausf_stall,32,marginal counts,0.16666666666666666,12,none
+R11-loaded,ausf_stall,32,pattern counts,0.16666666666666666,18,pattern kept per message
+R11-loaded,ausf_stall,32,unique marginal counts (negatives),0.1,10,complete negative reports from a known population
+R11-loaded,ausf_stall,32,unique-source patterns (lineage),0.1,15,source identity per message
+R11-loaded,net_delay,21,coordinate presence,0.1875,2,none
+R11-loaded,net_delay,21,pattern presence,0.1875,3,none
+R11-loaded,net_delay,21,marginal counts,0.1875,12,none
+R11-loaded,net_delay,21,pattern counts,0.1875,18,pattern kept per message
+R11-loaded,net_delay,21,unique marginal counts (negatives),0.1875,10,complete negative reports from a known population
+R11-loaded,net_delay,21,unique-source patterns (lineage),0.1875,15,source identity per message
+R11-loaded,net_delay,22,coordinate presence,0.234375,2,none
+R11-loaded,net_delay,22,pattern presence,0.234375,3,none
+R11-loaded,net_delay,22,marginal counts,0.196875,12,none
+R11-loaded,net_delay,22,pattern counts,0.196875,18,pattern kept per message
+R11-loaded,net_delay,22,unique marginal counts (negatives),0.196875,10,complete negative reports from a known population
+R11-loaded,net_delay,22,unique-source patterns (lineage),0.196875,15,source identity per message
+R11-loaded,net_delay,23,coordinate presence,0.12626262626262627,2,none
+R11-loaded,net_delay,23,pattern presence,0.12626262626262627,3,none
+R11-loaded,net_delay,23,marginal counts,0.12181818181818181,12,none
+R11-loaded,net_delay,23,pattern counts,0.12181818181818181,18,pattern kept per message
+R11-loaded,net_delay,23,unique marginal counts (negatives),0.12181818181818181,10,complete negative reports from a known population
+R11-loaded,net_delay,23,unique-source patterns (lineage),0.12181818181818181,15,source identity per message
+R11-loaded,net_delay,24,coordinate presence,0.1813186813186813,2,none
+R11-loaded,net_delay,24,pattern presence,0.1813186813186813,3,none
+R11-loaded,net_delay,24,marginal counts,0.1813186813186813,12,none
+R11-loaded,net_delay,24,pattern counts,0.1813186813186813,18,pattern kept per message
+R11-loaded,net_delay,24,unique marginal counts (negatives),0.06785714285714285,10,complete negative reports from a known population
+R11-loaded,net_delay,24,unique-source patterns (lineage),0.06785714285714285,15,source identity per message
+R11-loaded,net_delay,25,coordinate presence,0.1813186813186813,2,none
+R11-loaded,net_delay,25,pattern presence,0.1813186813186813,3,none
+R11-loaded,net_delay,25,marginal counts,0.1813186813186813,12,none
+R11-loaded,net_delay,25,pattern counts,0.1813186813186813,18,pattern kept per message
+R11-loaded,net_delay,25,unique marginal counts (negatives),0.10119047619047619,10,complete negative reports from a known population
+R11-loaded,net_delay,25,unique-source patterns (lineage),0.10119047619047619,15,source identity per message
+R11-loaded,net_delay,26,coordinate presence,0.12626262626262627,2,none
+R11-loaded,net_delay,26,pattern presence,0.12626262626262627,3,none
+R11-loaded,net_delay,26,marginal counts,0.11931818181818182,12,none
+R11-loaded,net_delay,26,pattern counts,0.11931818181818182,18,pattern kept per message
+R11-loaded,net_delay,26,unique marginal counts (negatives),0.10681818181818181,10,complete negative reports from a known population
+R11-loaded,net_delay,26,unique-source patterns (lineage),0.10681818181818181,15,source identity per message
+R11-loaded,net_delay,27,coordinate presence,0.14285714285714285,2,none
+R11-loaded,net_delay,27,pattern presence,0.14285714285714285,3,none
+R11-loaded,net_delay,27,marginal counts,0.14285714285714285,12,none
+R11-loaded,net_delay,27,pattern counts,0.14285714285714285,18,pattern kept per message
+R11-loaded,net_delay,27,unique marginal counts (negatives),0.14285714285714285,10,complete negative reports from a known population
+R11-loaded,net_delay,27,unique-source patterns (lineage),0.14285714285714285,15,source identity per message
+R11-loaded,net_delay,28,coordinate presence,0.20833333333333334,2,none
+R11-loaded,net_delay,28,pattern presence,0.20833333333333334,3,none
+R11-loaded,net_delay,28,marginal counts,0.20833333333333334,12,none
+R11-loaded,net_delay,28,pattern counts,0.20833333333333334,18,pattern kept per message
+R11-loaded,net_delay,28,unique marginal counts (negatives),0.125,10,complete negative reports from a known population
+R11-loaded,net_delay,28,unique-source patterns (lineage),0.125,15,source identity per message
+R11-loaded,net_delay,29,coordinate presence,0.22527472527472528,2,none
+R11-loaded,net_delay,29,pattern presence,0.22527472527472528,3,none
+R11-loaded,net_delay,29,marginal counts,0.21217948717948718,12,none
+R11-loaded,net_delay,29,pattern counts,0.21217948717948718,18,pattern kept per message
+R11-loaded,net_delay,29,unique marginal counts (negatives),0.15384615384615385,10,complete negative reports from a known population
+R11-loaded,net_delay,29,unique-source patterns (lineage),0.15384615384615385,15,source identity per message
+R11-loaded,net_delay,30,coordinate presence,0.15625,2,none
+R11-loaded,net_delay,30,pattern presence,0.15625,3,none
+R11-loaded,net_delay,30,marginal counts,0.14583333333333334,12,none
+R11-loaded,net_delay,30,pattern counts,0.14583333333333334,18,pattern kept per message
+R11-loaded,net_delay,30,unique marginal counts (negatives),0.1125,10,complete negative reports from a known population
+R11-loaded,net_delay,30,unique-source patterns (lineage),0.1125,15,source identity per message
+R11-loaded,net_delay,31,coordinate presence,0.234375,2,none
+R11-loaded,net_delay,31,pattern presence,0.234375,3,none
+R11-loaded,net_delay,31,marginal counts,0.23333333333333334,12,none
+R11-loaded,net_delay,31,pattern counts,0.23333333333333334,18,pattern kept per message
+R11-loaded,net_delay,31,unique marginal counts (negatives),0.0625,10,complete negative reports from a known population
+R11-loaded,net_delay,31,unique-source patterns (lineage),0.0625,15,source identity per message
+R11-loaded,net_delay,32,coordinate presence,0.23809523809523808,2,none
+R11-loaded,net_delay,32,pattern presence,0.23809523809523808,3,none
+R11-loaded,net_delay,32,marginal counts,0.2375,12,none
+R11-loaded,net_delay,32,pattern counts,0.2375,18,pattern kept per message
+R11-loaded,net_delay,32,unique marginal counts (negatives),0.2,10,complete negative reports from a known population
+R11-loaded,net_delay,32,unique-source patterns (lineage),0.2,15,source identity per message

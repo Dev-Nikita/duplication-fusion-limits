@@ -1,0 +1,109 @@
+# Phase A (evidence acquisition). Isolated Compose project: internal network, no published ports, no broker.
+# Probes see only their proxy; the injector alone reaches the proxies' control ports and writes the ground truth.
+name: paef_mt_a
+x-img: &img
+  image: paef-mt:local
+  build: .
+  networks: [mt]
+  mem_limit: 128m
+  cpus: 0.25
+services:
+  replica1:
+    <<: *img
+    command: [replica]
+    environment: {NAME: r1, LISTEN: ':8080'}
+  proxy1:
+    <<: *img
+    command: [faultproxy]
+    depends_on: [replica1]
+    environment: {NAME: s1, SEED: '${SEED}', TARGET: 'http://replica1:8080', LISTEN: ':8081', CONTROL: ':9090'}
+  probe1:
+    <<: *img
+    command: [probe]
+    depends_on: [proxy1]
+    environment: {SOURCE: s1, TARGET: 'http://proxy1:8081/work', OUT: /out, RATE_HZ: '20', TIMEOUT_MS: '500', GUARD_SEC: '0.5', T0_UNIX_MS: '${T0_UNIX_MS}', EP_SEC: '${EP_SEC}', EPISODES: '${EPISODES}'}
+    volumes: ['${RUN_DIR}/phaseA:/out']
+  replica2:
+    <<: *img
+    command: [replica]
+    environment: {NAME: r2, LISTEN: ':8080'}
+  proxy2:
+    <<: *img
+    command: [faultproxy]
+    depends_on: [replica2]
+    environment: {NAME: s2, SEED: '${SEED}', TARGET: 'http://replica2:8080', LISTEN: ':8081', CONTROL: ':9090'}
+  probe2:
+    <<: *img
+    command: [probe]
+    depends_on: [proxy2]
+    environment: {SOURCE: s2, TARGET: 'http://proxy2:8081/work', OUT: /out, RATE_HZ: '20', TIMEOUT_MS: '500', GUARD_SEC: '0.5', T0_UNIX_MS: '${T0_UNIX_MS}', EP_SEC: '${EP_SEC}', EPISODES: '${EPISODES}'}
+    volumes: ['${RUN_DIR}/phaseA:/out']
+  replica3:
+    <<: *img
+    command: [replica]
+    environment: {NAME: r3, LISTEN: ':8080'}
+  proxy3:
+    <<: *img
+    command: [faultproxy]
+    depends_on: [replica3]
+    environment: {NAME: s3, SEED: '${SEED}', TARGET: 'http://replica3:8080', LISTEN: ':8081', CONTROL: ':9090'}
+  probe3:
+    <<: *img
+    command: [probe]
+    depends_on: [proxy3]
+    environment: {SOURCE: s3, TARGET: 'http://proxy3:8081/work', OUT: /out, RATE_HZ: '20', TIMEOUT_MS: '500', GUARD_SEC: '0.5', T0_UNIX_MS: '${T0_UNIX_MS}', EP_SEC: '${EP_SEC}', EPISODES: '${EPISODES}'}
+    volumes: ['${RUN_DIR}/phaseA:/out']
+  replica4:
+    <<: *img
+    command: [replica]
+    environment: {NAME: r4, LISTEN: ':8080'}
+  proxy4:
+    <<: *img
+    command: [faultproxy]
+    depends_on: [replica4]
+    environment: {NAME: s4, SEED: '${SEED}', TARGET: 'http://replica4:8080', LISTEN: ':8081', CONTROL: ':9090'}
+  probe4:
+    <<: *img
+    command: [probe]
+    depends_on: [proxy4]
+    environment: {SOURCE: s4, TARGET: 'http://proxy4:8081/work', OUT: /out, RATE_HZ: '20', TIMEOUT_MS: '500', GUARD_SEC: '0.5', T0_UNIX_MS: '${T0_UNIX_MS}', EP_SEC: '${EP_SEC}', EPISODES: '${EPISODES}'}
+    volumes: ['${RUN_DIR}/phaseA:/out']
+  replica5:
+    <<: *img
+    command: [replica]
+    environment: {NAME: r5, LISTEN: ':8080'}
+  proxy5:
+    <<: *img
+    command: [faultproxy]
+    depends_on: [replica5]
+    environment: {NAME: s5, SEED: '${SEED}', TARGET: 'http://replica5:8080', LISTEN: ':8081', CONTROL: ':9090'}
+  probe5:
+    <<: *img
+    command: [probe]
+    depends_on: [proxy5]
+    environment: {SOURCE: s5, TARGET: 'http://proxy5:8081/work', OUT: /out, RATE_HZ: '20', TIMEOUT_MS: '500', GUARD_SEC: '0.5', T0_UNIX_MS: '${T0_UNIX_MS}', EP_SEC: '${EP_SEC}', EPISODES: '${EPISODES}'}
+    volumes: ['${RUN_DIR}/phaseA:/out']
+  replica6:
+    <<: *img
+    command: [replica]
+    environment: {NAME: r6, LISTEN: ':8080'}
+  proxy6:
+    <<: *img
+    command: [faultproxy]
+    depends_on: [replica6]
+    environment: {NAME: s6, SEED: '${SEED}', TARGET: 'http://replica6:8080', LISTEN: ':8081', CONTROL: ':9090'}
+  probe6:
+    <<: *img
+    command: [probe]
+    depends_on: [proxy6]
+    environment: {SOURCE: s6, TARGET: 'http://proxy6:8081/work', OUT: /out, RATE_HZ: '20', TIMEOUT_MS: '500', GUARD_SEC: '0.5', T0_UNIX_MS: '${T0_UNIX_MS}', EP_SEC: '${EP_SEC}', EPISODES: '${EPISODES}'}
+    volumes: ['${RUN_DIR}/phaseA:/out']
+  injector:
+    <<: *img
+    command: [injector]
+    depends_on: [proxy1, proxy2, proxy3, proxy4, proxy5, proxy6]
+    environment: {SEED: '${SEED}', CONFIG: /cfg/faults.json, PROXIES: 's1=http://proxy1:9090,s2=http://proxy2:9090,s3=http://proxy3:9090,s4=http://proxy4:9090,s5=http://proxy5:9090,s6=http://proxy6:9090', TRUTH: /truth, T0_UNIX_MS: '${T0_UNIX_MS}', EP_SEC: '${EP_SEC}', EPISODES: '${EPISODES}'}
+    volumes: ['${RUN_DIR}/truth:/truth', '${FAULTS}:/cfg/faults.json:ro']
+networks:
+  mt:
+    internal: true

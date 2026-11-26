@@ -1,0 +1,2 @@
+{"latency_p90_ms": 150, "error_share": 0.05, "min_requests": 10,
+ "note": "fixed before the pilot; L = p90 latency above latency_p90_ms; E = (5xx + resets + time-outs) / requests >= error_share; a probe record with fewer than min_requests requests is a missing report"}

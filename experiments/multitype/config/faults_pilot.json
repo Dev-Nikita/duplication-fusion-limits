@@ -1,0 +1,5 @@
+{"delay_ms": [80, 900], "err_rate": [0.05, 0.5], "reset_frac": 0.2, "p_co": 0.4, "co_delay_ms": [80, 300],
+ "bg_delay_ms": [40, 150], "bg_err_rate": [0.05, 0.3], "k_min": 1, "k_max": 6, "p_y1": 0.5,
+ "conditions": [{"name": "nested", "weight": 1, "p_bg": 0.0, "p_bg_err": 0.0},
+                {"name": "mixed", "weight": 1, "p_bg": 0.1, "p_bg_err": 0.05},
+                {"name": "opposing", "weight": 1, "p_bg": 0.35, "p_bg_err": 0.25}]}
