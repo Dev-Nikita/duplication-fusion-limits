@@ -1,0 +1,12 @@
+{
+  "title": "Evidence fusion under unknown report duplication: code, protocols and derived results",
+  "upload_type": "software",
+  "description": "Analysis code, testbed definitions, frozen experiment protocols and derived (per-unit) results for a study of fusion of counted reports when reports may be duplicated by an unknown mechanism. Raw packet captures are not included.",
+  "creators": [
+    {"name": "Tarasov, Nikita", "affiliation": "Lviv Polytechnic National University", "orcid": "0000-0003-1870-3436"},
+    {"name": "Zinko, Roman", "affiliation": "Lviv Polytechnic National University", "orcid": "0000-0002-3275-8188"}
+  ],
+  "license": "MIT",
+  "keywords": ["evidence fusion", "duplicated reports", "minimax risk", "reproducibility"],
+  "access_right": "open"
+}

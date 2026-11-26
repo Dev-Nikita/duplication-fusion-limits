@@ -1,5 +1,5 @@
 """Summarise the finite-cap application (analytical; no new data). Writes results/finite_cap/summary.csv,
-results/finite_cap/saturation.csv and paper/figures/fig_copycap.pdf. Usage: python3 tools/summarise_finite_cap.py"""
+results/finite_cap/saturation.csv and results/figures/fig_copycap.pdf. Usage: python3 tools/summarise_finite_cap.py"""
 import glob
 import numpy as np, pandas as pd
 import matplotlib; matplotlib.use("Agg")
@@ -62,5 +62,5 @@ for ax, t in zip(axs, tasks):
     ax.set_xticks(np.arange(len(z))); ax.set_xticklabels([str(v) for v in z.D]); ax.set_title(t.replace("_", " "), fontsize=9)
     ax.set_xlabel("copy cap $D$", fontsize=8); ax.tick_params(labelsize=7.5); ax.grid(alpha=0.25, lw=0.5)
 axs[0].set_ylabel("Brier risk", fontsize=8); h, l = axs[0].get_legend_handles_labels(); fig.legend(h, l, fontsize=7, frameon=False, loc="upper center", ncol=4)
-import os; os.makedirs("paper/figures", exist_ok=True)
-fig.tight_layout(rect=(0, 0, 1, 0.9)); fig.savefig("paper/figures/fig_copycap.pdf"); print("figure written")
+import os; os.makedirs("results/figures", exist_ok=True)
+fig.tight_layout(rect=(0, 0, 1, 0.9)); fig.savefig("results/figures/fig_copycap.pdf"); print("figure written")

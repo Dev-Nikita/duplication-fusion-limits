@@ -1,3 +1,1 @@
-# Superseded
-
-See `REPRODUCE.md` (all analyses) and `MANIFEST.csv`.
+See `REPRODUCE.md`.

@@ -5,7 +5,7 @@ import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 from scipy import stats
-R = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../results"); F = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../paper/figures")
+R = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../results"); F = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../results/figures"); os.makedirs(F, exist_ok=True)
 os.makedirs(F, exist_ok=True)
 C = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4"]; INK, INK2, GRID = "#0b0b0b", "#52514e", "#e4e3df"
 plt.rcParams.update({"font.size": 8.5, "axes.edgecolor": INK2, "axes.labelcolor": INK, "xtick.color": INK2, "ytick.color": INK2,

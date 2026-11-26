@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or the derived data, please cite it as below."
+title: "Evidence fusion under unknown report duplication: code, protocols and derived results"
+type: software
+authors:
+  - family-names: Tarasov
+    given-names: Nikita
+    affiliation: Lviv Polytechnic National University
+    orcid: "https://orcid.org/0000-0003-1870-3436"
+  - family-names: Zinko
+    given-names: Roman
+    affiliation: Lviv Polytechnic National University
+    orcid: "https://orcid.org/0000-0002-3275-8188"
+license: MIT
+repository-code: "https://github.com/Dev-Nikita/duplication-fusion-limits"
+keywords:
+  - evidence fusion
+  - duplicated reports
+  - minimax risk
+  - reproducibility

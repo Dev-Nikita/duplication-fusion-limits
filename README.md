@@ -1,36 +1,38 @@
-# Minimax information limits of evidence fusion under unknown report duplication — code, protocols, results
+# Evidence fusion under unknown report duplication — code, protocols and derived results
 
-Code, frozen protocols, testbed definition and derived results for the manuscript
-*"Minimax Information Limits of Evidence Fusion under Unknown Report Duplication"* (Nikita Tarasov, Lviv Polytechnic
-National University). The manuscript itself is not part of this repository (see `PRIVATE_FILES.md`).
+Code, testbed definitions, frozen experiment protocols and derived results for a study of fusion of counted reports
+when reports may be duplicated by an unknown mechanism (Nikita Tarasov and Roman Zinko, Lviv Polytechnic National
+University).
 
 ## Layout
 | Path | Contents |
 |---|---|
-| `testbed/` | Docker definition of Open5GS v2.7.6 + UERANSIM v3.2.7, fault injection (`scripts/campaign.py`), `run.sh`, `RUNBOOK.md` |
+| `testbed/` | Docker definition of an Open5GS v2.7.6 + UERANSIM v3.2.7 5G core testbed, fault injection, `run.sh`, `RUNBOOK.md` |
 | `src/paef/` | fusion methods, duplication mechanisms, per-UE layer, baselines |
-| `experiments/` | per-campaign feature extraction and analysis (R4–R12, R11-X, simulation, RCAEval, estimation-error study and baselines in `est/`, Flight benchmark in `flight/`); `experiments/paper/` figures |
-| `tools/` | finite-cap theory: solvers (`finite_cap_solvers.py`, `finite_cap_cvx.py`, `extended_models.py`), verification (`test_finite_cap_independent.py`, `saturation_closed_form.py`, `quantitative_saturation.py`, `li_certify.py`), application to data, tables, figures and the release manifest (`make_manifest.py`); repository hygiene (`git_safety_check.sh`, `make_public_release.sh`) |
+| `experiments/` | per-campaign feature extraction and analysis; Flight benchmark (`flight/`); broker replay through NATS JetStream (`redelivery/`); two-type testbed with fault proxies and broker replay (`multitype/`, Go) |
+| `tools/` | finite-cap solvers and verification, whole-report copying (`whole_report_saturation/`, exact rational arithmetic), K=2 evaluation (`whole_report_eval/`), data-integrity gate, tables, figures, release manifest |
 | `docs/` | frozen protocols (`*-protocol.md`, with sha256 of the code they froze), `amendments.md`, result reports |
-| `results/` | derived per-UE units, per-cell results and every intermediate file behind the reported numbers |
+| `results/` | derived per-unit readings and every intermediate result behind the reported numbers |
 | `tests/` | unit and property tests (`python -m pytest -q tests`) |
 
 ## Reproduce
-`REPRODUCE.md` lists every step; `MANIFEST.csv` maps each table and figure of the article to its inputs, command,
-output files and sha256; `make reproduce-math`, `make reproduce-tables`, `make reproduce-figures`,
-`make reproduce-external`, `make cross-platform`, `make clean-room DIR=<empty dir>` and `make audit` run them
-(`pip install -r requirements_finite_cap.txt` first). Testbed (macOS/Linux with Docker, about 25 min per block):
-`cd testbed && ./run.sh build`, then the campaign targets in `RUNBOOK.md`.
+`pip install -r requirements_finite_cap.txt`, then see `REPRODUCE.md`. `MANIFEST.csv` maps each table and figure to its
+inputs, command, outputs and sha256. Main targets: `make reproduce-math`, `make reproduce-tables`,
+`make reproduce-figures`, `make reproduce-external`, `make integrity`, `make whole-report-quick`,
+`make whole-report-eval`, `make audit`. Testbed (Docker): `cd testbed && ./run.sh build`, then `RUNBOOK.md`.
+Two-type testbed: `experiments/multitype/README.md`.
 
 ## Status of analyses
-Campaign protocols were frozen (sha256 of code) before data or analysis existed; amendments are in `docs/amendments.md`.
-The Flight study was frozen before any outcome was computed (`docs/flight-protocol.md`); its primary hypothesis was not
-confirmed. After the frozen run we found that three airline websites are both sources and the providers of the gold
-standard; `docs/flight-addendum-R2.md` (written before computing) defines the rerun without them and the added
-same-channel baselines. That rerun is a sensitivity analysis, not a confirmatory test; both sets of results are kept
-(`results/flight/`, `results/flight/audit_R2/`). The finite-cap application, the baselines and the mechanism-information and second-type analyses are
-analytical and were declared after the testbed data had been seen. Exploratory analyses are labelled as such.
-The archive `paef-provenance-release.zip` of an earlier project stage is superseded by this layout.
+Campaign protocols were frozen (sha256 of code) before data or analysis existed; amendments are in
+`docs/amendments.md`. Hypotheses that were not confirmed are reported as such. Three invalid testbed blocks (R6
+blocks 7–9) were found in the input of the broker replay; the corrected analysis is in `results/redelivery_corrected/`,
+the original one is kept and marked withdrawn (`results/redelivery/WITHDRAWN.txt`), and `make integrity` checks that
+no other result uses those blocks. Exploratory analyses are labelled as such.
+
+## Data
+Included: per-unit testbed readings and all derived results. Not included: packet captures and raw logs (about 35 GB,
+available on request) and external datasets (Flight, Li et al. 2012; RCAEval, Zenodo record 14504481), which
+`REPRODUCE.md` explains how to download.
 
 ## Licence and citation
-To be added with the public release (DOI on acceptance).
+Code: MIT (`LICENSE`). Derived data in `results/`: CC BY 4.0. Citation metadata: `CITATION.cff`.
