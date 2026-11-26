@@ -1,0 +1,40 @@
+AUDIT
+regime  deliveries  roots  copies  max_multiplicity  share_roots_copied  bytes_per_delivery  unknown_episode  two_sequences  counters_not_1_to_n  cap_exceeded  root_not_episode_source  originals_missing
+    S0       11211  11211       0                 1            0.000000          119.450272                0              0                    0             0                        0                  0
+    S1       13234  11211    2023                 3            0.168049          119.397310                0              0                    0             0                        0                  0
+    S2       12896  11211    1685                 3            0.136919          119.378722                0              0                    0             0                        0                  0
+   S3a       17689  11211    6478                 3            0.562840          119.443892                0              0                    0             0                        0                  0
+   S3b       19966  11211    8755                 4            0.562840          119.232195                0              0                    0             0                        0                  0
+    S4       13390  11211    2179                 2            0.194363          119.890217                0              0                    0             0                        0                  0
+audit violations: 0
+quality gate (no violations; copies in every regime but S0; none in S0): PASS
+r10: learnability gate on training blocks, AUROC of U = 0.953 (PASS; threshold 0.65)
+r6: learnability gate on training blocks, AUROC of U = 0.690 (PASS; threshold 0.65)
+
+HELD-OUT BRIER (observed, by regime) and model worst case
+regime                                 S0      S1      S2     S3a     S3b      S4  model worst case (D=2)
+dataset rule                                                                                             
+r10     clipped_count              0.0787  0.0877  0.0946  0.0841  0.0790  0.0820                     NaN
+        count_gbdt                 0.0762  0.0794  0.0862  0.0912  0.0860  0.0778                     NaN
+        count_table                0.0795  0.0885  0.0960  0.0900  0.0847  0.0870                     NaN
+        log_count                  0.0737  0.0674  0.0736  0.0866  0.0831  0.0661                     NaN
+        minimax                    0.0871  0.0898  0.0904  0.0975  0.0958  0.0854                  0.1034
+        oracle_unique (reference)  0.0852  0.0852  0.0852  0.0852  0.0852  0.0852                     NaN
+        presence                   0.1069  0.1069  0.1069  0.1069  0.1069  0.1069                     NaN
+        weighted                   0.0717  0.0753  0.0793  0.0930  0.0830  0.0684                  0.1197
+r6      clipped_count              0.1042  0.1076  0.1061  0.1103  0.1088  0.1042                     NaN
+        count_gbdt                 0.1908  0.1435  0.1651  0.1247  0.1211  0.1908                     NaN
+        count_table                0.1859  0.1310  0.1563  0.1301  0.1241  0.1859                     NaN
+        log_count                  0.1219  0.1158  0.1191  0.1224  0.1280  0.1219                     NaN
+        minimax                    0.1156  0.1156  0.1156  0.1156  0.1156  0.1156                  0.1156
+        oracle_unique (reference)  0.1186  0.1186  0.1186  0.1186  0.1186  0.1186                     NaN
+        presence                   0.1158  0.1158  0.1158  0.1158  0.1158  0.1158                     NaN
+        weighted                   0.1197  0.1211  0.1190  0.1167  0.1156  0.1197                  0.1295
+
+PRE-SPECIFIED READINGS (margin 0.010 Brier)
+r10: worst observed over S1,S2,S3a,S4: count_table 0.0960, count_gbdt 0.0912, minimax 0.0975, weighted 0.0930, presence 0.1069
+r10: H1 (a robust rule beats the trained count table on the worst observed regime by at least 0.010): NOT HELD
+r10: H2 (under stable delivery S1 the count table is not worse than minimax by more than 0.010): HELD
+r6: worst observed over S1,S2,S3a,S4: count_table 0.1859, count_gbdt 0.1908, minimax 0.1156, weighted 0.1211, presence 0.1158
+r6: H1 (a robust rule beats the trained count table on the worst observed regime by at least 0.010): HELD
+r6: H2 (under stable delivery S1 the count table is not worse than minimax by more than 0.010): NOT HELD

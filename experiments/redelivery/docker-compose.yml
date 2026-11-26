@@ -1,0 +1,28 @@
+# Isolated project: its own internal network, no published ports, memory-only JetStream, resource limits.
+name: paef_redelivery
+services:
+  nats:
+    image: nats:2.10.22-alpine
+    command: ["-js"]
+    networks: [paef]
+    mem_limit: 512m
+    cpus: 1.0
+  runner:
+    build: .
+    depends_on: [nats]
+    networks: [paef]
+    mem_limit: 512m
+    cpus: 1.0
+    environment:
+      NATS_URL: nats://nats:4222
+      REPORTS: /in/reports.jsonl
+      OUT: /out
+      REGIMES: S0,S1,S2,S3a,S3b,S4
+      SEED: confirm-20261116
+      ACK_WAIT_MS: "250"
+    volumes:
+      - ./input:/in:ro
+      - ./out:/out
+networks:
+  paef:
+    internal: true

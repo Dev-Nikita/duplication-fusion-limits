@@ -1,0 +1,50 @@
+{
+ "ack_wait_ms": 250,
+ "finished": "2026-11-16T17:43:21Z",
+ "late_S0": 0,
+ "late_S1": 0,
+ "late_S2": 0,
+ "late_S3a": 0,
+ "late_S3b": 0,
+ "late_S4": 0,
+ "regime_S0": {
+  "ack_pending_at_end": 0,
+  "max_deliver": 3,
+  "redelivered_at_end": 0,
+  "seconds": 1.006136258
+ },
+ "regime_S1": {
+  "ack_pending_at_end": 0,
+  "max_deliver": 3,
+  "redelivered_at_end": 0,
+  "seconds": 1.51552929
+ },
+ "regime_S2": {
+  "ack_pending_at_end": 0,
+  "max_deliver": 3,
+  "redelivered_at_end": 0,
+  "seconds": 1.603255952
+ },
+ "regime_S3a": {
+  "ack_pending_at_end": 0,
+  "max_deliver": 3,
+  "redelivered_at_end": 0,
+  "seconds": 1.554560009
+ },
+ "regime_S3b": {
+  "ack_pending_at_end": 0,
+  "max_deliver": 5,
+  "redelivered_at_end": 0,
+  "seconds": 2.03553123
+ },
+ "regime_S4": {
+  "ack_pending_at_end": 0,
+  "max_deliver": 3,
+  "redelivered_at_end": 0,
+  "seconds": 1.608319668
+ },
+ "reports": 11211,
+ "seed": "confirm-20261116",
+ "server": "2.10.22",
+ "started": "2026-11-16T17:43:05Z"
+}

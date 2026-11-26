@@ -1,0 +1,52 @@
+largest deviation of the refitted observed Brier from the stored brier.csv: 8.33e-17
+
+dataset          rule  worst_observed  count_only_D2  label_aware_D2
+    r10      presence          0.1069         0.1069          0.1069
+    r10   count_table          0.0960         0.1430          0.1809
+    r10    count_gbdt          0.0912         0.1286          0.1523
+    r10 clipped_count          0.0946         0.1391          0.1772
+    r10     log_count          0.0866         0.1134          0.1227
+    r10       minimax          0.0975         0.1019          0.1034
+    r10      weighted          0.0930         0.1118          0.1197
+     r6      presence          0.1161         0.1161          0.1161
+     r6   count_table          0.1178         0.1602          0.1800
+     r6    count_gbdt          0.1289         0.1383          0.1489
+     r6 clipped_count          0.1164         0.1340          0.1467
+     r6     log_count          0.1242         0.1330          0.1404
+     r6       minimax          0.1193         0.1223          0.1234
+     r6      weighted          0.1245         0.1304          0.1333
+
+sensitivity to the cap (rules unchanged):
+dataset          rule  label_aware_D0  label_aware_D1  label_aware_D2  label_aware_D3  count_only_D0  count_only_D1  count_only_D2  count_only_D3
+    r10      presence           0.107           0.107           0.107           0.107          0.107          0.107          0.107          0.107
+    r10   count_table           0.080           0.172           0.181           0.190          0.080          0.137          0.143          0.148
+    r10    count_gbdt           0.076           0.146           0.152           0.160          0.076          0.124          0.129          0.136
+    r10 clipped_count           0.079           0.168           0.177           0.188          0.079          0.133          0.139          0.146
+    r10     log_count           0.074           0.108           0.123           0.124          0.074          0.100          0.113          0.115
+    r10       minimax           0.087           0.101           0.103           0.109          0.087          0.100          0.102          0.108
+    r10      weighted           0.072           0.116           0.120           0.128          0.072          0.108          0.112          0.120
+     r6      presence           0.116           0.116           0.116           0.116          0.116          0.116          0.116          0.116
+     r6   count_table           0.106           0.178           0.180           0.181          0.106          0.158          0.160          0.161
+     r6    count_gbdt           0.120           0.148           0.149           0.149          0.120          0.137          0.138          0.139
+     r6 clipped_count           0.100           0.144           0.147           0.147          0.100          0.131          0.134          0.134
+     r6     log_count           0.114           0.137           0.140           0.141          0.114          0.130          0.133          0.133
+     r6       minimax           0.114           0.121           0.123           0.125          0.114          0.120          0.122          0.124
+     r6      weighted           0.116           0.132           0.133           0.134          0.116          0.129          0.130          0.131
+
+observed Brier by held-out block, worst over S1,S2,S3a,S4:
+block                     10     11     12     17     18
+dataset rule                                            
+r10     clipped_count    NaN    NaN    NaN  0.119  0.106
+        count_gbdt       NaN    NaN    NaN  0.105  0.113
+        count_table      NaN    NaN    NaN  0.121  0.112
+        log_count        NaN    NaN    NaN  0.087  0.092
+        minimax          NaN    NaN    NaN  0.094  0.101
+        presence         NaN    NaN    NaN  0.107  0.107
+        weighted         NaN    NaN    NaN  0.093  0.106
+r6      clipped_count  0.107  0.098  0.144    NaN    NaN
+        count_gbdt     0.131  0.107  0.150    NaN    NaN
+        count_table    0.110  0.108  0.136    NaN    NaN
+        log_count      0.129  0.104  0.140    NaN    NaN
+        minimax        0.124  0.094  0.140    NaN    NaN
+        presence       0.122  0.092  0.134    NaN    NaN
+        weighted       0.127  0.101  0.145    NaN    NaN

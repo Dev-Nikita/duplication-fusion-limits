@@ -1,0 +1,5 @@
+WITHDRAWN_ANALYSIS - DO NOT USE FOR THE ARTICLE.
+These are the results of the frozen broker-replay analysis (16 Nov 2026). Its input included the invalid R6 testbed
+blocks 7-9 (UE identities beyond the provisioned range) in the training part and in the firing threshold.
+The article uses results/redelivery_corrected/ (make redelivery-corrected); see Supplementary Section S7.
+The files are kept unchanged for transparency.

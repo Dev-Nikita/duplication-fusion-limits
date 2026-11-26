@@ -1,0 +1,7 @@
+1. files with block columns scanned; invalid blocks used outside raw/withdrawn files: none
+2. corrected replay A: 600 episodes, R6 blocks [4, 5, 6, 10, 11, 12]
+2. corrected replay B: 600 episodes, R6 blocks [4, 5, 6, 10, 11, 12]
+3. Flight: 32 sources in the frozen run, 29 after removing the 3 airline sites
+4. valid testbed blocks: 27, episodes 2100 (article: 2,100 in 27)
+5. withdrawn marker present
+RESULT: PASS

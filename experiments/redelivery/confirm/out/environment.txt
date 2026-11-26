@@ -1,0 +1,6 @@
+2026-11-16T17:43:22Z
+Linux 7.0.0-38-generic x86_64
+Docker version 29.9.2, build a82e528
+Docker Compose version v5.6.1
+nats image nats@sha256:73b0ba5fec5518c5f698597c58d2a3350a2b5ccae43e84c308f8d2da1242deca
+4
