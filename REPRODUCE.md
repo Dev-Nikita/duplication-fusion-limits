@@ -26,7 +26,7 @@ matplotlib, cvxpy with the Clarabel solver, pytest). Run everything from the pro
 | 6 | `tools/apply_finite_cap.py` (two calls, see `tools/clean_room_run.sh`) | `results/finite_cap/part{1,2}/` | mirror-ascent brackets (independent check of R*_D) |
 | 7 | `tools/presence_rule_oos.py`, `tools/fold_laws.py`, `tools/plugin_cvx_oos.py`, `tools/li_vs_ld.py`, `tools/li_certify.py` | `results/finite_cap/*.csv`, `fold_laws.pkl` | Table 4 inputs; count-only game and its certificate |
 | 8 | `python3 tools/saturation_closed_form.py --folds results/finite_cap/fold_laws.pkl results/finite_cap/saturation_closed_form.csv` | D_sat per fold | Table 4 |
-| 9 | `python3 tools/summarise_finite_cap.py`; `python3 tools/make_table4.py` | `summary.csv`, `table4_rows.tex`, `results/figures/fig_copycap.pdf` | Table 4, Figure 1, fold counts of Section 7.3 |
+| 9 | `python3 tools/summarise_finite_cap.py`; `python3 tools/make_table4.py` | `summary.csv`, `table4_rows.tex` | Table 4, fold counts of Section 7.3 |
 | 10 | `python3 -W ignore tools/block_sensitivity.py` | `block_*.csv` | block-level and leave-one-physical-block-out results (Section 7.3) |
 | 11 | `python3 -W ignore tools/saturation_stability.py 500`; `python3 tools/make_stability_table.py` | `saturation_stability_*.csv`, `stability_rows.tex` | Table 5 |
 | 12 | `python3 -W ignore experiments/est/estimation_error.py results/finite_cap/fold_laws.pkl results/est/estimation_error.csv` | estimation-error study | Section 7.4, Table 6 (protocol `docs/est-protocol.md`) |
@@ -55,6 +55,11 @@ Table 3 (R11-X) and Tables S1–S4 come from the campaign analyses: `experiments
 * `make whole-report-eval` — exploratory K=2 dry run on the existing testbed: per-UE two-type whole reports,
   108 leave-one-block-out folds; writes `results/whole_report_eval/dryrun_folds.csv` and `dryrun_channels.csv`
   (post hoc, not a hypothesis test). The K=2 experiment code is in `experiments/multitype/` (not yet run on a server).
+
+* `make reproduce-figures` (or `python3 -W ignore tools/paper_figures.py`) — every figure of the article and the
+  supplementary material drawn with matplotlib from files in `results/` into `results/figures/` (the worked example of
+  the saturation figure is computed exactly by the script; its values are written to `fig_saturation_values.json`).
+  The two schematic figures (observation model, whole-report geometry) are drawn in the manuscript source.
 
 ## External data
 * Flight (Li et al., VLDB 2012): `clean_flight.zip` and `flight_truth.zip` from

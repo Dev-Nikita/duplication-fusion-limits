@@ -1,9 +1,7 @@
 """Summarise the finite-cap application (analytical; no new data). Writes results/finite_cap/summary.csv,
-results/finite_cap/saturation.csv and results/figures/fig_copycap.pdf. Usage: python3 tools/summarise_finite_cap.py"""
+results/finite_cap/saturation.csv (the figure is drawn by tools/paper_figures.py). Usage: python3 tools/summarise_finite_cap.py"""
 import glob
 import numpy as np, pandas as pd
-import matplotlib; matplotlib.use("Agg")
-import matplotlib.pyplot as plt
 
 R = "results/finite_cap/"
 d = pd.concat([pd.read_csv(f) for f in sorted(glob.glob(R + "part*/finite_cap_application.csv"))], ignore_index=True)
@@ -46,21 +44,3 @@ print("smallest saturating cap on the grid {1,2,3,4,8,16} per fold ('-' = not re
 print(allf.reset_index().groupby(["dataset", "task"]).D_sat_grid.agg(lambda x: " ".join("-" if pd.isna(v) else str(int(v)) for v in x)).to_string())
 print("max primal-dual gap", d.gap.max(), " value/LP saturation contradictions",
       int(((d.saturated_lp) & (d.R_star_lo < d.RB_P - 1e-4)).sum()))
-# figure
-ds = list(dict.fromkeys(d.dataset)); tasks = ["amf_stall", "ausf_stall", "net_delay"]
-fig, axs = plt.subplots(1, 3, figsize=(7.2, 2.75), sharey=True)
-cols = dict(zip(ds, ["#1f5aa6", "#c2571a", "#2a8a4a", "#7b3fa0"]))
-for ax, t in zip(axs, tasks):
-    for k in ds:
-        z = s[(s.dataset == k) & (s.task == t)]
-        if z.empty:
-            continue
-        xs = np.arange(len(z))
-        ax.plot(xs, z.R_star, "-o", ms=3, color=cols[k], label=k.replace("-control", " ctrl").replace("-loaded", " load"))
-        ax.plot(xs, z.W_minimax, ":", color=cols[k], lw=1)
-        ax.axhline(z.RB_P.iloc[0], color=cols[k], lw=0.6, alpha=0.5, ls="--")
-    ax.set_xticks(np.arange(len(z))); ax.set_xticklabels([str(v) for v in z.D]); ax.set_title(t.replace("_", " "), fontsize=9)
-    ax.set_xlabel("copy cap $D$", fontsize=8); ax.tick_params(labelsize=7.5); ax.grid(alpha=0.25, lw=0.5)
-axs[0].set_ylabel("Brier risk", fontsize=8); h, l = axs[0].get_legend_handles_labels(); fig.legend(h, l, fontsize=7, frameon=False, loc="upper center", ncol=4)
-import os; os.makedirs("results/figures", exist_ok=True)
-fig.tight_layout(rect=(0, 0, 1, 0.9)); fig.savefig("results/figures/fig_copycap.pdf"); print("figure written")

@@ -25,6 +25,7 @@ reproduce-tables:
 
 reproduce-figures:
 	$(PY) tools/summarise_finite_cap.py > /dev/null
+	$(PY) -W ignore tools/paper_figures.py
 	$(PY) experiments/paper/figure1_values.py
 
 reproduce-external:
